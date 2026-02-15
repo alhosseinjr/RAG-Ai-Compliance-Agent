@@ -1,4 +1,4 @@
-=============================================
+=====================================
 REGULATORY & COMPLIANCE AUTOMATION SYSTEM - README
 Challenge CH-04: Automated Compliance Analysis Using RAG
 =============================================
