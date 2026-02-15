@@ -1,0 +1,31 @@
+case_id,submitted_at,department,jurisdiction,case_type,description,risk_level,compliance_result
+CASE000001,2025-09-10T17:00:00,Sales,UAE,complaint_response,Need response template for complaint.,high,Non-Compliant - Must escalate within 24 hours per policy
+CASE000002,2025-12-16T00:00:00,Marketing,UAE,complaint_response,Ingredient substitution due to supplier shortage.,medium,Compliant - Follow standard complaint response procedure
+CASE000003,2025-11-13T22:00:00,IT,KSA,label_change,Ad copy includes before/after images.,low,Requires Review - Must include batch number and expiry date per regulations
+CASE000004,2025-01-09T21:00:00,Sales,UAE,ingredient_change,Need response template for complaint.,medium,Requires Review - Verify ingredient restrictions and concentration limits
+CASE000005,2025-06-28T02:00:00,SupplyChain,EG,ad_copy,Need response template for complaint.,high,Requires Review - Must pass legal review before publishing
+CASE000006,2025-09-16T22:00:00,HR,UAE,ad_copy,Ingredient substitution due to supplier shortage.,medium,Requires Review - Must pass legal review before publishing
+CASE000007,2025-03-22T22:00:00,SupplyChain,EU,ad_copy,Need approval for a new claim on packaging.,low,Requires Review - Must pass legal review and substantiate claims per regulations
+CASE000008,2025-07-11T13:00:00,HR,UAE,complaint_response,Ingredient substitution due to supplier shortage.,low,Compliant - Follow standard complaint response procedure
+CASE000009,2025-02-14T06:00:00,HR,EG,complaint_response,Need response template for complaint.,low,Compliant - Follow standard complaint response procedure
+CASE000010,2025-08-26T06:00:00,Sales,EU,label_change,Customer data request processing guidance.,low,Requires Review - Must include batch number and expiry date per regulations
+CASE000011,2025-01-06T03:00:00,HR,EU,complaint_response,Customer data request processing guidance.,high,Non-Compliant - Must escalate within 24 hours per policy
+CASE000012,2025-11-12T16:00:00,HR,UAE,complaint_response,Need response template for complaint.,low,Compliant - Follow standard complaint response procedure
+CASE000013,2025-10-02T19:00:00,IT,UAE,label_change,Need approval for a new claim on packaging.,medium,Requires Review - Must include batch number and expiry date per regulations
+CASE000014,2025-12-01T22:00:00,SupplyChain,UAE,data_request,Need response template for complaint.,high,Requires Review - Must obtain consent and ensure role-based access
+CASE000015,2025-09-22T03:00:00,Sales,EU,label_change,Customer data request processing guidance.,medium,Requires Review - Must include batch number and expiry date per regulations
+CASE000016,2025-08-10T11:00:00,Marketing,EG,data_request,Ad copy includes before/after images.,medium,Requires Review - Must obtain consent and ensure role-based access
+CASE000017,2025-05-22T23:00:00,Marketing,KSA,label_change,Need response template for complaint.,low,Requires Review - Must include batch number and expiry date per regulations
+CASE000018,2025-01-29T03:00:00,IT,UAE,label_change,Need response template for complaint.,low,Requires Review - Must include batch number and expiry date per regulations
+CASE000019,2025-05-27T14:00:00,HR,EU,data_request,Ad copy includes before/after images.,medium,Requires Review - Must obtain consent and ensure role-based access
+CASE000020,2025-08-22T23:00:00,HR,KSA,ad_copy,Need approval for a new claim on packaging.,medium,Requires Review - Must pass legal review and substantiate claims per regulations
+CASE000021,2025-04-23T06:00:00,SupplyChain,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,medium,Requires Review - Verify ingredient restrictions and concentration limits
+CASE000022,2025-09-23T14:00:00,IT,UAE,ad_copy,Customer data request processing guidance.,medium,Requires Review - Must pass legal review before publishing
+CASE000023,2025-12-01T02:00:00,Marketing,UAE,complaint_response,Customer data request processing guidance.,medium,Compliant - Follow standard complaint response procedure
+CASE000024,2025-08-02T13:00:00,Sales,EG,label_change,Ingredient substitution due to supplier shortage.,medium,Requires Review - Must include batch number and expiry date per regulations
+CASE000025,2025-09-26T02:00:00,HR,EG,ad_copy,Ingredient substitution due to supplier shortage.,low,Requires Review - Must pass legal review before publishing
+CASE000026,2025-06-17T19:00:00,SupplyChain,EU,label_change,Ingredient substitution due to supplier shortage.,low,Requires Review - Must include batch number and expiry date per regulations
+CASE000027,2025-05-30T14:00:00,Marketing,UAE,ad_copy,Ingredient substitution due to supplier shortage.,high,Requires Review - Must pass legal review before publishing
+CASE000028,2025-03-20T20:00:00,IT,EU,label_change,Customer data request processing guidance.,high,Requires Review - Must include batch number and expiry date per regulations
+CASE000029,2025-10-01T15:00:00,HR,KSA,data_request,Need response template for complaint.,low,Requires Review - Must obtain consent and ensure role-based access
+CASE000030,2025-09-18T13:00:00,Marketing,EG,ingredient_change,Need response template for complaint.,low,Requires Review - Verify ingredient restrictions and concentration limits

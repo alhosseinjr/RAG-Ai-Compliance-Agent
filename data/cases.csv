@@ -1,0 +1,1501 @@
+case_id,submitted_at,department,jurisdiction,case_type,description,risk_level
+CASE000001,2025-09-10T17:00:00,Sales,UAE,complaint_response,Need response template for complaint.,high
+CASE000002,2025-12-16T00:00:00,Marketing,UAE,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000003,2025-11-13T22:00:00,IT,KSA,label_change,Ad copy includes before/after images.,low
+CASE000004,2025-01-09T21:00:00,Sales,UAE,ingredient_change,Need response template for complaint.,medium
+CASE000005,2025-06-28T02:00:00,SupplyChain,EG,ad_copy,Need response template for complaint.,high
+CASE000006,2025-09-16T22:00:00,HR,UAE,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000007,2025-03-22T22:00:00,SupplyChain,EU,ad_copy,Need approval for a new claim on packaging.,low
+CASE000008,2025-07-11T13:00:00,HR,UAE,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000009,2025-02-14T06:00:00,HR,EG,complaint_response,Need response template for complaint.,low
+CASE000010,2025-08-26T06:00:00,Sales,EU,label_change,Customer data request processing guidance.,low
+CASE000011,2025-01-06T03:00:00,HR,EU,complaint_response,Customer data request processing guidance.,high
+CASE000012,2025-11-12T16:00:00,HR,UAE,complaint_response,Need response template for complaint.,low
+CASE000013,2025-10-02T19:00:00,IT,UAE,label_change,Need approval for a new claim on packaging.,medium
+CASE000014,2025-12-01T22:00:00,SupplyChain,UAE,data_request,Need response template for complaint.,high
+CASE000015,2025-09-22T03:00:00,Sales,EU,label_change,Customer data request processing guidance.,medium
+CASE000016,2025-08-10T11:00:00,Marketing,EG,data_request,Ad copy includes before/after images.,medium
+CASE000017,2025-05-22T23:00:00,Marketing,KSA,label_change,Need response template for complaint.,low
+CASE000018,2025-01-29T03:00:00,IT,UAE,label_change,Need response template for complaint.,low
+CASE000019,2025-05-27T14:00:00,HR,EU,data_request,Ad copy includes before/after images.,medium
+CASE000020,2025-08-22T23:00:00,HR,KSA,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000021,2025-04-23T06:00:00,SupplyChain,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000022,2025-09-23T14:00:00,IT,UAE,ad_copy,Customer data request processing guidance.,medium
+CASE000023,2025-12-01T02:00:00,Marketing,UAE,complaint_response,Customer data request processing guidance.,medium
+CASE000024,2025-08-02T13:00:00,Sales,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000025,2025-09-26T02:00:00,HR,EG,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000026,2025-06-17T19:00:00,SupplyChain,EU,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000027,2025-05-30T14:00:00,Marketing,UAE,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000028,2025-03-20T20:00:00,IT,EU,label_change,Customer data request processing guidance.,high
+CASE000029,2025-10-01T15:00:00,HR,KSA,data_request,Need response template for complaint.,low
+CASE000030,2025-09-18T13:00:00,Marketing,EG,ingredient_change,Need response template for complaint.,low
+CASE000031,2025-04-26T14:00:00,Sales,EG,label_change,Ad copy includes before/after images.,high
+CASE000032,2025-07-28T18:00:00,HR,UAE,ad_copy,Need response template for complaint.,low
+CASE000033,2025-11-18T02:00:00,IT,KSA,complaint_response,Need approval for a new claim on packaging.,low
+CASE000034,2025-11-21T09:00:00,IT,KSA,data_request,Need approval for a new claim on packaging.,high
+CASE000035,2025-02-04T22:00:00,Sales,EU,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000036,2025-07-23T17:00:00,Sales,EG,label_change,Ad copy includes before/after images.,high
+CASE000037,2025-10-16T22:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,low
+CASE000038,2025-12-08T05:00:00,Marketing,EG,data_request,Need response template for complaint.,low
+CASE000039,2025-12-20T09:00:00,Sales,EG,ad_copy,Need response template for complaint.,medium
+CASE000040,2025-04-30T10:00:00,IT,EU,ad_copy,Customer data request processing guidance.,low
+CASE000041,2025-09-30T02:00:00,SupplyChain,KSA,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000042,2025-04-30T02:00:00,Sales,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000043,2025-05-27T22:00:00,Marketing,UAE,data_request,Ad copy includes before/after images.,medium
+CASE000044,2025-01-12T04:00:00,Sales,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000045,2025-01-03T06:00:00,Sales,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE000046,2025-01-17T13:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000047,2025-06-16T05:00:00,IT,EG,ingredient_change,Need response template for complaint.,low
+CASE000048,2025-09-12T06:00:00,IT,EG,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000049,2025-08-23T08:00:00,IT,UAE,complaint_response,Need approval for a new claim on packaging.,high
+CASE000050,2025-03-10T06:00:00,Marketing,EU,ad_copy,Need response template for complaint.,low
+CASE000051,2025-07-05T19:00:00,Marketing,EU,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000052,2025-05-20T04:00:00,IT,KSA,label_change,Need response template for complaint.,high
+CASE000053,2025-01-11T08:00:00,IT,UAE,label_change,Need response template for complaint.,low
+CASE000054,2025-10-19T05:00:00,Sales,EG,complaint_response,Ad copy includes before/after images.,medium
+CASE000055,2025-12-25T21:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,medium
+CASE000056,2025-09-15T00:00:00,IT,EG,data_request,Need approval for a new claim on packaging.,medium
+CASE000057,2025-06-09T12:00:00,HR,EG,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000058,2025-11-25T10:00:00,HR,UAE,complaint_response,Customer data request processing guidance.,high
+CASE000059,2025-02-12T17:00:00,HR,UAE,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000060,2025-06-14T13:00:00,Marketing,EU,data_request,Need response template for complaint.,high
+CASE000061,2025-03-15T00:00:00,HR,KSA,data_request,Need approval for a new claim on packaging.,high
+CASE000062,2025-06-04T00:00:00,Marketing,KSA,complaint_response,Need approval for a new claim on packaging.,low
+CASE000063,2025-02-01T08:00:00,SupplyChain,KSA,data_request,Customer data request processing guidance.,medium
+CASE000064,2025-06-21T02:00:00,Sales,EG,ad_copy,Need response template for complaint.,low
+CASE000065,2025-06-25T19:00:00,HR,KSA,label_change,Need response template for complaint.,medium
+CASE000066,2025-12-19T16:00:00,IT,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000067,2025-11-09T03:00:00,Sales,UAE,complaint_response,Need approval for a new claim on packaging.,high
+CASE000068,2025-08-03T15:00:00,IT,EG,ingredient_change,Customer data request processing guidance.,high
+CASE000069,2025-07-03T22:00:00,SupplyChain,EU,data_request,Customer data request processing guidance.,high
+CASE000070,2025-05-13T16:00:00,HR,KSA,complaint_response,Ad copy includes before/after images.,low
+CASE000071,2025-12-13T03:00:00,HR,UAE,data_request,Need approval for a new claim on packaging.,low
+CASE000072,2025-01-31T06:00:00,Marketing,KSA,ingredient_change,Customer data request processing guidance.,low
+CASE000073,2025-08-22T03:00:00,IT,UAE,data_request,Need response template for complaint.,high
+CASE000074,2025-06-06T17:00:00,SupplyChain,EG,ad_copy,Ad copy includes before/after images.,high
+CASE000075,2025-08-29T20:00:00,Marketing,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000076,2025-05-22T12:00:00,HR,UAE,label_change,Customer data request processing guidance.,high
+CASE000077,2025-07-18T08:00:00,Marketing,EG,data_request,Need approval for a new claim on packaging.,low
+CASE000078,2025-01-04T19:00:00,Sales,EU,data_request,Ad copy includes before/after images.,medium
+CASE000079,2025-07-27T02:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000080,2025-04-01T05:00:00,Sales,EU,data_request,Need approval for a new claim on packaging.,low
+CASE000081,2025-10-24T15:00:00,Marketing,UAE,ad_copy,Need approval for a new claim on packaging.,high
+CASE000082,2025-08-10T09:00:00,SupplyChain,EG,complaint_response,Need approval for a new claim on packaging.,high
+CASE000083,2025-06-28T04:00:00,Marketing,EU,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000084,2025-07-30T02:00:00,Sales,KSA,ingredient_change,Customer data request processing guidance.,high
+CASE000085,2025-11-01T21:00:00,SupplyChain,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000086,2025-11-07T14:00:00,Sales,EU,complaint_response,Need response template for complaint.,high
+CASE000087,2025-12-13T14:00:00,Sales,EG,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000088,2025-03-11T10:00:00,Sales,EG,data_request,Need response template for complaint.,low
+CASE000089,2025-08-03T09:00:00,Marketing,KSA,ingredient_change,Customer data request processing guidance.,medium
+CASE000090,2025-05-06T19:00:00,Sales,EU,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000091,2025-03-04T01:00:00,SupplyChain,UAE,ad_copy,Ad copy includes before/after images.,high
+CASE000092,2025-05-21T16:00:00,IT,EU,ad_copy,Ad copy includes before/after images.,high
+CASE000093,2025-08-06T01:00:00,SupplyChain,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE000094,2025-12-23T06:00:00,Sales,EG,data_request,Ad copy includes before/after images.,medium
+CASE000095,2025-04-04T08:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,low
+CASE000096,2025-05-12T05:00:00,IT,EG,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000097,2025-01-06T21:00:00,Marketing,UAE,ad_copy,Need approval for a new claim on packaging.,low
+CASE000098,2025-12-22T21:00:00,HR,EU,ingredient_change,Ad copy includes before/after images.,low
+CASE000099,2025-09-07T17:00:00,Sales,EU,complaint_response,Need approval for a new claim on packaging.,high
+CASE000100,2025-06-26T12:00:00,SupplyChain,UAE,ingredient_change,Need response template for complaint.,medium
+CASE000101,2025-12-16T16:00:00,SupplyChain,EG,ad_copy,Need approval for a new claim on packaging.,low
+CASE000102,2025-01-29T20:00:00,SupplyChain,EU,ingredient_change,Need response template for complaint.,low
+CASE000103,2025-02-27T14:00:00,IT,KSA,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000104,2025-03-23T15:00:00,Marketing,EG,ad_copy,Need response template for complaint.,high
+CASE000105,2025-03-02T12:00:00,Sales,UAE,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000106,2025-01-30T06:00:00,Marketing,EU,data_request,Need approval for a new claim on packaging.,low
+CASE000107,2025-06-25T17:00:00,SupplyChain,EG,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000108,2025-08-31T14:00:00,HR,KSA,label_change,Need response template for complaint.,high
+CASE000109,2025-08-28T02:00:00,IT,UAE,complaint_response,Need approval for a new claim on packaging.,low
+CASE000110,2025-06-06T06:00:00,HR,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000111,2025-02-22T14:00:00,Sales,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000112,2025-05-03T01:00:00,Sales,EU,label_change,Need response template for complaint.,medium
+CASE000113,2025-03-11T02:00:00,Sales,EU,data_request,Need approval for a new claim on packaging.,low
+CASE000114,2025-10-27T19:00:00,SupplyChain,KSA,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000115,2025-05-02T23:00:00,Marketing,EU,complaint_response,Ad copy includes before/after images.,high
+CASE000116,2025-07-26T12:00:00,IT,KSA,ad_copy,Ad copy includes before/after images.,high
+CASE000117,2025-07-24T21:00:00,Sales,KSA,complaint_response,Ad copy includes before/after images.,high
+CASE000118,2025-07-04T17:00:00,IT,EU,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000119,2025-03-01T22:00:00,IT,EU,label_change,Ad copy includes before/after images.,high
+CASE000120,2025-03-29T10:00:00,Sales,EG,complaint_response,Customer data request processing guidance.,high
+CASE000121,2025-09-15T23:00:00,Sales,EG,data_request,Need response template for complaint.,high
+CASE000122,2025-12-25T06:00:00,IT,EU,ingredient_change,Customer data request processing guidance.,low
+CASE000123,2025-01-29T20:00:00,IT,UAE,label_change,Customer data request processing guidance.,medium
+CASE000124,2025-07-16T08:00:00,SupplyChain,EG,complaint_response,Ad copy includes before/after images.,medium
+CASE000125,2025-12-09T14:00:00,Sales,UAE,data_request,Need response template for complaint.,high
+CASE000126,2025-06-04T06:00:00,HR,EU,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000127,2025-09-08T09:00:00,SupplyChain,KSA,ingredient_change,Customer data request processing guidance.,medium
+CASE000128,2025-03-13T13:00:00,Marketing,EG,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000129,2025-12-04T06:00:00,HR,EU,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000130,2025-11-29T19:00:00,Marketing,EU,data_request,Need approval for a new claim on packaging.,medium
+CASE000131,2025-07-30T22:00:00,IT,UAE,ingredient_change,Need response template for complaint.,medium
+CASE000132,2025-07-27T20:00:00,HR,EU,data_request,Need response template for complaint.,high
+CASE000133,2025-12-03T09:00:00,Marketing,UAE,data_request,Customer data request processing guidance.,high
+CASE000134,2025-01-22T12:00:00,Marketing,KSA,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000135,2025-07-29T23:00:00,Marketing,EG,label_change,Need approval for a new claim on packaging.,low
+CASE000136,2025-11-12T12:00:00,Sales,EU,label_change,Need approval for a new claim on packaging.,high
+CASE000137,2025-05-20T20:00:00,Marketing,UAE,ingredient_change,Need response template for complaint.,high
+CASE000138,2025-04-04T11:00:00,HR,EU,ad_copy,Need response template for complaint.,high
+CASE000139,2025-04-28T02:00:00,SupplyChain,EG,data_request,Ad copy includes before/after images.,low
+CASE000140,2025-11-02T22:00:00,HR,KSA,ingredient_change,Need response template for complaint.,high
+CASE000141,2025-06-24T11:00:00,SupplyChain,EU,ingredient_change,Need response template for complaint.,medium
+CASE000142,2025-02-19T05:00:00,IT,KSA,label_change,Need approval for a new claim on packaging.,low
+CASE000143,2025-05-16T12:00:00,IT,EU,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000144,2025-12-21T13:00:00,SupplyChain,KSA,label_change,Customer data request processing guidance.,low
+CASE000145,2025-08-15T10:00:00,HR,EU,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000146,2025-02-09T06:00:00,Sales,UAE,label_change,Customer data request processing guidance.,high
+CASE000147,2025-03-15T06:00:00,HR,EU,data_request,Ad copy includes before/after images.,medium
+CASE000148,2025-02-07T18:00:00,IT,EU,complaint_response,Need response template for complaint.,medium
+CASE000149,2025-10-12T12:00:00,Marketing,UAE,label_change,Customer data request processing guidance.,medium
+CASE000150,2025-06-10T21:00:00,HR,UAE,data_request,Customer data request processing guidance.,low
+CASE000151,2025-07-05T15:00:00,HR,UAE,complaint_response,Customer data request processing guidance.,low
+CASE000152,2025-09-25T06:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,low
+CASE000153,2025-01-26T09:00:00,Marketing,KSA,complaint_response,Need response template for complaint.,medium
+CASE000154,2025-11-19T16:00:00,Sales,KSA,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000155,2025-01-02T11:00:00,Marketing,EU,data_request,Customer data request processing guidance.,low
+CASE000156,2025-11-08T23:00:00,Sales,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000157,2025-08-28T07:00:00,IT,UAE,data_request,Customer data request processing guidance.,high
+CASE000158,2025-02-07T03:00:00,Marketing,EU,ad_copy,Need response template for complaint.,medium
+CASE000159,2025-03-07T11:00:00,IT,EU,label_change,Need approval for a new claim on packaging.,low
+CASE000160,2025-03-06T03:00:00,SupplyChain,UAE,data_request,Need response template for complaint.,low
+CASE000161,2025-05-17T17:00:00,IT,UAE,ad_copy,Ad copy includes before/after images.,medium
+CASE000162,2025-12-07T15:00:00,Marketing,UAE,ingredient_change,Need response template for complaint.,medium
+CASE000163,2025-09-06T17:00:00,Marketing,KSA,ad_copy,Need approval for a new claim on packaging.,high
+CASE000164,2025-05-10T14:00:00,Sales,EG,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000165,2025-09-09T23:00:00,HR,EG,data_request,Need approval for a new claim on packaging.,low
+CASE000166,2025-06-18T17:00:00,SupplyChain,UAE,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000167,2025-07-18T03:00:00,SupplyChain,EG,label_change,Need approval for a new claim on packaging.,medium
+CASE000168,2025-04-03T13:00:00,Sales,KSA,complaint_response,Customer data request processing guidance.,low
+CASE000169,2025-06-03T23:00:00,SupplyChain,KSA,ad_copy,Need response template for complaint.,high
+CASE000170,2025-12-17T06:00:00,HR,EU,ad_copy,Ad copy includes before/after images.,low
+CASE000171,2025-01-22T03:00:00,HR,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000172,2025-11-27T21:00:00,HR,EU,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000173,2025-10-28T03:00:00,HR,KSA,label_change,Customer data request processing guidance.,low
+CASE000174,2025-09-11T09:00:00,IT,UAE,data_request,Customer data request processing guidance.,medium
+CASE000175,2025-08-06T21:00:00,Marketing,KSA,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000176,2025-08-23T04:00:00,SupplyChain,EG,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000177,2025-05-03T07:00:00,Marketing,EU,ad_copy,Need response template for complaint.,high
+CASE000178,2025-07-08T02:00:00,Sales,EG,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000179,2025-05-19T18:00:00,IT,EG,complaint_response,Customer data request processing guidance.,medium
+CASE000180,2025-01-12T12:00:00,IT,EU,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000181,2025-11-28T07:00:00,HR,EG,ingredient_change,Ad copy includes before/after images.,high
+CASE000182,2025-08-23T05:00:00,Sales,UAE,ingredient_change,Ad copy includes before/after images.,high
+CASE000183,2025-07-16T10:00:00,HR,EU,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000184,2025-03-17T20:00:00,Sales,KSA,ingredient_change,Need response template for complaint.,medium
+CASE000185,2025-09-27T19:00:00,IT,EU,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000186,2025-08-27T03:00:00,HR,EG,ad_copy,Need response template for complaint.,low
+CASE000187,2025-08-19T20:00:00,HR,KSA,complaint_response,Customer data request processing guidance.,low
+CASE000188,2025-03-11T11:00:00,Sales,EG,ad_copy,Need response template for complaint.,medium
+CASE000189,2025-07-27T10:00:00,Marketing,UAE,complaint_response,Need response template for complaint.,low
+CASE000190,2025-11-28T10:00:00,Sales,EG,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000191,2025-07-09T15:00:00,Marketing,UAE,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000192,2025-05-02T07:00:00,HR,EU,label_change,Ad copy includes before/after images.,medium
+CASE000193,2025-01-29T03:00:00,HR,KSA,data_request,Customer data request processing guidance.,high
+CASE000194,2025-07-02T21:00:00,SupplyChain,EG,complaint_response,Need approval for a new claim on packaging.,low
+CASE000195,2025-02-05T16:00:00,HR,EU,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000196,2025-03-01T22:00:00,IT,UAE,complaint_response,Customer data request processing guidance.,low
+CASE000197,2025-06-07T07:00:00,IT,KSA,data_request,Customer data request processing guidance.,low
+CASE000198,2025-11-24T00:00:00,Marketing,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE000199,2025-06-08T02:00:00,Sales,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000200,2025-11-30T14:00:00,Sales,UAE,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000201,2025-07-24T04:00:00,Sales,EG,ingredient_change,Customer data request processing guidance.,low
+CASE000202,2025-08-15T20:00:00,Marketing,EU,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000203,2025-02-07T10:00:00,Sales,EU,ad_copy,Ad copy includes before/after images.,high
+CASE000204,2025-01-26T19:00:00,Marketing,EU,data_request,Ad copy includes before/after images.,high
+CASE000205,2025-08-26T15:00:00,SupplyChain,UAE,label_change,Ad copy includes before/after images.,low
+CASE000206,2025-02-12T15:00:00,SupplyChain,UAE,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000207,2025-09-02T21:00:00,Marketing,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000208,2025-09-16T08:00:00,IT,UAE,data_request,Ad copy includes before/after images.,medium
+CASE000209,2025-10-07T06:00:00,SupplyChain,KSA,ad_copy,Need response template for complaint.,low
+CASE000210,2025-12-31T06:00:00,SupplyChain,EG,data_request,Need approval for a new claim on packaging.,high
+CASE000211,2025-02-25T17:00:00,SupplyChain,UAE,ad_copy,Customer data request processing guidance.,low
+CASE000212,2025-07-31T09:00:00,IT,EU,label_change,Need response template for complaint.,low
+CASE000213,2025-04-27T18:00:00,HR,EU,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000214,2025-07-17T07:00:00,SupplyChain,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000215,2025-10-16T06:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000216,2025-10-02T08:00:00,IT,EU,data_request,Need response template for complaint.,high
+CASE000217,2025-01-04T21:00:00,Sales,UAE,ingredient_change,Customer data request processing guidance.,medium
+CASE000218,2025-02-08T05:00:00,Marketing,EG,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000219,2025-02-06T21:00:00,Marketing,UAE,ad_copy,Need approval for a new claim on packaging.,low
+CASE000220,2025-09-05T07:00:00,Sales,UAE,label_change,Need approval for a new claim on packaging.,medium
+CASE000221,2025-10-28T06:00:00,Sales,UAE,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000222,2025-05-31T15:00:00,Sales,UAE,complaint_response,Need response template for complaint.,medium
+CASE000223,2025-03-22T08:00:00,IT,EG,label_change,Need approval for a new claim on packaging.,low
+CASE000224,2025-03-02T02:00:00,Sales,KSA,label_change,Need response template for complaint.,low
+CASE000225,2025-03-12T05:00:00,SupplyChain,EU,data_request,Need response template for complaint.,low
+CASE000226,2025-04-23T10:00:00,Marketing,EG,label_change,Ad copy includes before/after images.,high
+CASE000227,2025-01-04T12:00:00,Sales,KSA,complaint_response,Need response template for complaint.,high
+CASE000228,2025-06-04T13:00:00,IT,UAE,data_request,Customer data request processing guidance.,high
+CASE000229,2025-01-14T19:00:00,IT,EU,label_change,Need approval for a new claim on packaging.,low
+CASE000230,2025-04-02T06:00:00,SupplyChain,EU,data_request,Need response template for complaint.,medium
+CASE000231,2025-12-19T06:00:00,Marketing,KSA,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000232,2025-10-15T17:00:00,SupplyChain,EG,complaint_response,Need response template for complaint.,medium
+CASE000233,2025-01-10T01:00:00,Marketing,KSA,data_request,Need response template for complaint.,medium
+CASE000234,2025-09-07T07:00:00,HR,UAE,complaint_response,Ad copy includes before/after images.,low
+CASE000235,2025-06-15T17:00:00,SupplyChain,EG,ad_copy,Customer data request processing guidance.,medium
+CASE000236,2025-01-24T11:00:00,SupplyChain,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000237,2025-02-12T08:00:00,IT,KSA,ingredient_change,Ad copy includes before/after images.,low
+CASE000238,2025-08-08T13:00:00,IT,KSA,data_request,Customer data request processing guidance.,high
+CASE000239,2025-01-13T23:00:00,Marketing,EU,ingredient_change,Need response template for complaint.,low
+CASE000240,2025-07-11T15:00:00,Sales,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000241,2025-01-15T01:00:00,HR,EU,label_change,Customer data request processing guidance.,high
+CASE000242,2025-08-30T12:00:00,SupplyChain,UAE,complaint_response,Ad copy includes before/after images.,high
+CASE000243,2025-11-12T03:00:00,SupplyChain,EG,ad_copy,Need response template for complaint.,low
+CASE000244,2025-03-27T11:00:00,Marketing,KSA,data_request,Need response template for complaint.,medium
+CASE000245,2025-03-13T17:00:00,IT,UAE,label_change,Need approval for a new claim on packaging.,medium
+CASE000246,2025-04-17T18:00:00,IT,EU,ad_copy,Ad copy includes before/after images.,low
+CASE000247,2025-03-18T10:00:00,SupplyChain,EG,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000248,2025-12-28T09:00:00,Sales,UAE,label_change,Need response template for complaint.,low
+CASE000249,2025-11-17T16:00:00,IT,UAE,data_request,Need approval for a new claim on packaging.,low
+CASE000250,2025-10-05T13:00:00,HR,EU,ad_copy,Customer data request processing guidance.,low
+CASE000251,2025-08-31T12:00:00,Sales,EG,ingredient_change,Need response template for complaint.,high
+CASE000252,2025-08-19T20:00:00,Marketing,EG,complaint_response,Customer data request processing guidance.,low
+CASE000253,2025-07-24T09:00:00,SupplyChain,EG,ad_copy,Need response template for complaint.,medium
+CASE000254,2025-08-18T01:00:00,HR,KSA,complaint_response,Customer data request processing guidance.,low
+CASE000255,2025-09-30T08:00:00,HR,KSA,ad_copy,Ad copy includes before/after images.,medium
+CASE000256,2025-08-06T13:00:00,Marketing,KSA,data_request,Customer data request processing guidance.,medium
+CASE000257,2025-04-01T15:00:00,HR,UAE,ad_copy,Customer data request processing guidance.,medium
+CASE000258,2025-12-07T11:00:00,Sales,EG,complaint_response,Need response template for complaint.,low
+CASE000259,2025-10-20T14:00:00,SupplyChain,EU,complaint_response,Need response template for complaint.,low
+CASE000260,2025-05-26T20:00:00,IT,UAE,data_request,Customer data request processing guidance.,medium
+CASE000261,2025-08-11T14:00:00,HR,EG,ingredient_change,Ad copy includes before/after images.,medium
+CASE000262,2025-06-16T12:00:00,SupplyChain,UAE,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000263,2025-06-02T23:00:00,Sales,KSA,ad_copy,Need approval for a new claim on packaging.,low
+CASE000264,2025-12-07T12:00:00,SupplyChain,EU,ingredient_change,Customer data request processing guidance.,high
+CASE000265,2025-12-19T15:00:00,Marketing,EU,ad_copy,Ad copy includes before/after images.,low
+CASE000266,2025-02-27T18:00:00,SupplyChain,UAE,complaint_response,Customer data request processing guidance.,medium
+CASE000267,2025-05-05T10:00:00,Sales,UAE,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000268,2025-04-28T20:00:00,HR,UAE,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000269,2025-08-13T10:00:00,IT,EU,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000270,2025-03-20T15:00:00,Marketing,KSA,ad_copy,Customer data request processing guidance.,high
+CASE000271,2025-04-10T21:00:00,Marketing,EU,complaint_response,Need approval for a new claim on packaging.,high
+CASE000272,2025-12-14T01:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,high
+CASE000273,2025-06-01T15:00:00,HR,KSA,data_request,Need response template for complaint.,low
+CASE000274,2025-04-17T14:00:00,SupplyChain,KSA,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000275,2025-10-19T23:00:00,IT,KSA,ingredient_change,Ad copy includes before/after images.,high
+CASE000276,2025-11-18T23:00:00,HR,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE000277,2025-05-19T05:00:00,Sales,EU,complaint_response,Ad copy includes before/after images.,high
+CASE000278,2025-08-28T16:00:00,SupplyChain,KSA,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000279,2025-11-20T01:00:00,HR,EG,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000280,2025-12-26T11:00:00,Sales,EG,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000281,2025-09-12T21:00:00,Sales,EU,ad_copy,Need approval for a new claim on packaging.,low
+CASE000282,2025-07-31T11:00:00,Sales,EG,complaint_response,Need response template for complaint.,high
+CASE000283,2025-08-23T05:00:00,Sales,EG,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000284,2025-09-03T12:00:00,IT,EU,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000285,2025-12-02T14:00:00,IT,UAE,ingredient_change,Need response template for complaint.,high
+CASE000286,2025-09-01T19:00:00,HR,EG,data_request,Need response template for complaint.,low
+CASE000287,2025-05-31T20:00:00,Sales,UAE,label_change,Need response template for complaint.,medium
+CASE000288,2025-01-28T21:00:00,SupplyChain,UAE,label_change,Customer data request processing guidance.,low
+CASE000289,2025-05-09T23:00:00,Sales,EG,ingredient_change,Ad copy includes before/after images.,low
+CASE000290,2025-10-14T00:00:00,HR,KSA,complaint_response,Ad copy includes before/after images.,high
+CASE000291,2025-08-26T06:00:00,HR,EG,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000292,2025-02-03T18:00:00,Marketing,UAE,data_request,Need response template for complaint.,low
+CASE000293,2025-03-10T07:00:00,IT,EU,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000294,2025-03-24T00:00:00,IT,EU,ad_copy,Need response template for complaint.,high
+CASE000295,2025-09-09T05:00:00,HR,UAE,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000296,2025-10-07T19:00:00,Marketing,UAE,complaint_response,Ad copy includes before/after images.,medium
+CASE000297,2025-09-14T21:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,high
+CASE000298,2025-09-02T23:00:00,SupplyChain,UAE,data_request,Need response template for complaint.,high
+CASE000299,2025-02-26T04:00:00,Sales,EU,data_request,Ad copy includes before/after images.,low
+CASE000300,2025-10-25T11:00:00,HR,UAE,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000301,2025-04-08T19:00:00,SupplyChain,EU,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000302,2025-02-21T13:00:00,Marketing,UAE,ingredient_change,Ad copy includes before/after images.,high
+CASE000303,2025-02-08T00:00:00,Marketing,EU,ad_copy,Ad copy includes before/after images.,medium
+CASE000304,2025-12-05T07:00:00,Marketing,UAE,data_request,Need response template for complaint.,high
+CASE000305,2025-05-23T00:00:00,Marketing,KSA,complaint_response,Need approval for a new claim on packaging.,low
+CASE000306,2025-07-14T10:00:00,HR,UAE,complaint_response,Need response template for complaint.,low
+CASE000307,2025-09-06T20:00:00,SupplyChain,UAE,ad_copy,Customer data request processing guidance.,medium
+CASE000308,2025-03-28T02:00:00,IT,EG,label_change,Ad copy includes before/after images.,low
+CASE000309,2025-07-01T01:00:00,SupplyChain,KSA,ad_copy,Customer data request processing guidance.,high
+CASE000310,2025-06-02T00:00:00,SupplyChain,EG,ingredient_change,Customer data request processing guidance.,medium
+CASE000311,2025-10-11T10:00:00,HR,UAE,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000312,2025-11-14T03:00:00,SupplyChain,EU,data_request,Need response template for complaint.,medium
+CASE000313,2025-12-28T06:00:00,SupplyChain,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000314,2025-08-30T02:00:00,SupplyChain,UAE,complaint_response,Customer data request processing guidance.,high
+CASE000315,2025-01-12T12:00:00,Sales,KSA,label_change,Customer data request processing guidance.,low
+CASE000316,2025-05-28T07:00:00,HR,EG,label_change,Customer data request processing guidance.,medium
+CASE000317,2025-05-07T02:00:00,Marketing,EG,ad_copy,Customer data request processing guidance.,high
+CASE000318,2025-08-31T09:00:00,SupplyChain,UAE,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000319,2025-09-07T22:00:00,IT,KSA,label_change,Need response template for complaint.,medium
+CASE000320,2025-02-27T08:00:00,HR,UAE,label_change,Need approval for a new claim on packaging.,medium
+CASE000321,2025-07-08T16:00:00,IT,EG,ad_copy,Customer data request processing guidance.,high
+CASE000322,2025-08-22T09:00:00,IT,KSA,complaint_response,Ad copy includes before/after images.,medium
+CASE000323,2025-05-09T17:00:00,Sales,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000324,2025-04-25T16:00:00,Marketing,KSA,complaint_response,Need approval for a new claim on packaging.,high
+CASE000325,2025-10-25T04:00:00,IT,KSA,ingredient_change,Ad copy includes before/after images.,medium
+CASE000326,2025-06-27T10:00:00,SupplyChain,UAE,label_change,Ad copy includes before/after images.,low
+CASE000327,2025-05-02T01:00:00,SupplyChain,KSA,data_request,Ad copy includes before/after images.,medium
+CASE000328,2025-08-21T22:00:00,HR,UAE,ingredient_change,Customer data request processing guidance.,low
+CASE000329,2025-05-10T22:00:00,Marketing,UAE,complaint_response,Need response template for complaint.,high
+CASE000330,2025-07-17T20:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000331,2025-05-26T04:00:00,IT,KSA,ad_copy,Ad copy includes before/after images.,high
+CASE000332,2025-09-14T15:00:00,Marketing,EG,complaint_response,Need approval for a new claim on packaging.,high
+CASE000333,2025-12-19T10:00:00,Marketing,EG,label_change,Customer data request processing guidance.,low
+CASE000334,2025-10-23T05:00:00,SupplyChain,UAE,label_change,Need approval for a new claim on packaging.,low
+CASE000335,2025-03-29T15:00:00,SupplyChain,UAE,ingredient_change,Customer data request processing guidance.,medium
+CASE000336,2025-06-02T05:00:00,HR,EG,ad_copy,Need response template for complaint.,low
+CASE000337,2025-08-14T19:00:00,HR,EG,ingredient_change,Need response template for complaint.,medium
+CASE000338,2025-11-11T11:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000339,2025-01-19T18:00:00,SupplyChain,KSA,label_change,Customer data request processing guidance.,high
+CASE000340,2025-10-15T04:00:00,HR,UAE,ingredient_change,Need response template for complaint.,medium
+CASE000341,2025-07-23T15:00:00,HR,KSA,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000342,2025-03-18T07:00:00,SupplyChain,KSA,ingredient_change,Need response template for complaint.,medium
+CASE000343,2025-08-29T23:00:00,HR,EG,ingredient_change,Customer data request processing guidance.,low
+CASE000344,2025-07-13T18:00:00,IT,EG,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000345,2025-06-30T03:00:00,HR,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000346,2025-09-04T05:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000347,2025-01-23T21:00:00,Marketing,EG,ad_copy,Customer data request processing guidance.,medium
+CASE000348,2025-01-15T18:00:00,SupplyChain,EG,ad_copy,Need response template for complaint.,high
+CASE000349,2025-05-15T03:00:00,IT,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE000350,2025-09-16T08:00:00,Sales,UAE,data_request,Need response template for complaint.,low
+CASE000351,2025-02-23T16:00:00,SupplyChain,UAE,ingredient_change,Need response template for complaint.,high
+CASE000352,2025-06-19T19:00:00,IT,UAE,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000353,2025-07-23T22:00:00,Marketing,EG,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000354,2025-03-13T10:00:00,SupplyChain,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000355,2025-11-02T09:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,medium
+CASE000356,2025-08-19T15:00:00,Marketing,EU,data_request,Ad copy includes before/after images.,medium
+CASE000357,2025-07-12T02:00:00,IT,KSA,label_change,Need response template for complaint.,high
+CASE000358,2025-08-21T18:00:00,IT,EU,label_change,Ad copy includes before/after images.,medium
+CASE000359,2025-07-15T07:00:00,Sales,UAE,complaint_response,Ad copy includes before/after images.,low
+CASE000360,2025-01-02T18:00:00,Marketing,KSA,data_request,Customer data request processing guidance.,high
+CASE000361,2025-10-19T20:00:00,Marketing,KSA,complaint_response,Customer data request processing guidance.,low
+CASE000362,2025-02-08T14:00:00,Marketing,EG,data_request,Ad copy includes before/after images.,low
+CASE000363,2025-12-29T06:00:00,HR,EU,ingredient_change,Need response template for complaint.,high
+CASE000364,2025-09-22T17:00:00,Sales,EU,ingredient_change,Customer data request processing guidance.,medium
+CASE000365,2025-02-04T17:00:00,HR,KSA,label_change,Need response template for complaint.,low
+CASE000366,2025-05-19T14:00:00,HR,EU,ingredient_change,Customer data request processing guidance.,medium
+CASE000367,2025-12-08T16:00:00,Sales,UAE,label_change,Need response template for complaint.,low
+CASE000368,2025-10-07T22:00:00,IT,EG,label_change,Need response template for complaint.,high
+CASE000369,2025-01-23T12:00:00,HR,KSA,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000370,2025-01-17T23:00:00,IT,KSA,complaint_response,Customer data request processing guidance.,high
+CASE000371,2025-05-28T18:00:00,IT,EU,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000372,2025-02-07T20:00:00,SupplyChain,KSA,label_change,Ad copy includes before/after images.,low
+CASE000373,2025-06-17T23:00:00,Marketing,UAE,ad_copy,Need response template for complaint.,medium
+CASE000374,2025-09-02T12:00:00,Sales,KSA,ad_copy,Need response template for complaint.,high
+CASE000375,2025-10-26T17:00:00,HR,EG,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000376,2025-08-07T19:00:00,Sales,EG,ingredient_change,Customer data request processing guidance.,high
+CASE000377,2025-11-02T13:00:00,HR,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE000378,2025-08-24T16:00:00,SupplyChain,EU,complaint_response,Ad copy includes before/after images.,high
+CASE000379,2025-05-12T02:00:00,SupplyChain,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000380,2025-11-06T01:00:00,IT,UAE,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000381,2025-11-27T17:00:00,Marketing,EG,complaint_response,Need approval for a new claim on packaging.,high
+CASE000382,2025-10-01T11:00:00,Marketing,KSA,data_request,Customer data request processing guidance.,medium
+CASE000383,2025-08-13T03:00:00,IT,EG,ingredient_change,Need response template for complaint.,high
+CASE000384,2025-03-28T17:00:00,SupplyChain,EU,data_request,Need response template for complaint.,medium
+CASE000385,2025-01-24T06:00:00,SupplyChain,EG,ingredient_change,Ad copy includes before/after images.,high
+CASE000386,2025-09-26T21:00:00,SupplyChain,EU,ad_copy,Customer data request processing guidance.,low
+CASE000387,2025-01-31T07:00:00,HR,KSA,complaint_response,Need response template for complaint.,medium
+CASE000388,2025-06-27T05:00:00,Sales,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000389,2025-12-25T11:00:00,SupplyChain,KSA,ad_copy,Customer data request processing guidance.,low
+CASE000390,2025-03-05T03:00:00,Sales,KSA,ad_copy,Ad copy includes before/after images.,low
+CASE000391,2025-12-30T02:00:00,Sales,KSA,ingredient_change,Need response template for complaint.,high
+CASE000392,2025-11-05T09:00:00,Sales,EU,data_request,Need response template for complaint.,medium
+CASE000393,2025-08-01T00:00:00,Sales,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000394,2025-06-24T16:00:00,Marketing,EG,complaint_response,Need response template for complaint.,medium
+CASE000395,2025-01-29T20:00:00,Marketing,EG,label_change,Need response template for complaint.,low
+CASE000396,2025-05-18T14:00:00,IT,KSA,label_change,Need approval for a new claim on packaging.,high
+CASE000397,2025-06-12T12:00:00,HR,EU,label_change,Need approval for a new claim on packaging.,high
+CASE000398,2025-08-02T14:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,medium
+CASE000399,2025-02-12T03:00:00,Marketing,UAE,ingredient_change,Customer data request processing guidance.,low
+CASE000400,2025-02-27T15:00:00,Marketing,UAE,ingredient_change,Need response template for complaint.,low
+CASE000401,2025-01-20T14:00:00,SupplyChain,EU,ingredient_change,Need response template for complaint.,high
+CASE000402,2025-04-17T17:00:00,HR,EG,data_request,Need approval for a new claim on packaging.,low
+CASE000403,2025-05-14T15:00:00,HR,EU,label_change,Ad copy includes before/after images.,low
+CASE000404,2025-04-10T09:00:00,Sales,EU,ad_copy,Need response template for complaint.,low
+CASE000405,2025-08-03T16:00:00,Marketing,UAE,ingredient_change,Ad copy includes before/after images.,medium
+CASE000406,2025-09-12T06:00:00,SupplyChain,EG,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000407,2025-09-02T16:00:00,Sales,EU,data_request,Need approval for a new claim on packaging.,high
+CASE000408,2025-03-24T09:00:00,SupplyChain,EU,ad_copy,Need response template for complaint.,medium
+CASE000409,2025-11-30T13:00:00,Marketing,EU,label_change,Ad copy includes before/after images.,low
+CASE000410,2025-06-05T18:00:00,HR,EG,label_change,Customer data request processing guidance.,low
+CASE000411,2025-06-12T23:00:00,Sales,KSA,ingredient_change,Ad copy includes before/after images.,low
+CASE000412,2025-03-02T05:00:00,Sales,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE000413,2025-10-10T17:00:00,IT,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000414,2025-06-30T17:00:00,HR,UAE,label_change,Need response template for complaint.,low
+CASE000415,2025-10-30T23:00:00,SupplyChain,KSA,complaint_response,Need response template for complaint.,high
+CASE000416,2025-07-06T15:00:00,HR,EG,data_request,Need approval for a new claim on packaging.,medium
+CASE000417,2025-08-19T08:00:00,Sales,KSA,ingredient_change,Ad copy includes before/after images.,high
+CASE000418,2025-01-15T01:00:00,Sales,EG,data_request,Customer data request processing guidance.,high
+CASE000419,2025-02-13T17:00:00,Sales,EU,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000420,2025-09-12T00:00:00,SupplyChain,KSA,data_request,Ad copy includes before/after images.,low
+CASE000421,2025-02-07T14:00:00,Sales,EG,ad_copy,Customer data request processing guidance.,medium
+CASE000422,2025-08-22T20:00:00,Sales,EU,complaint_response,Need approval for a new claim on packaging.,high
+CASE000423,2025-01-10T14:00:00,HR,EG,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000424,2025-07-07T09:00:00,IT,UAE,ad_copy,Need response template for complaint.,medium
+CASE000425,2025-06-18T06:00:00,Marketing,EG,data_request,Need response template for complaint.,high
+CASE000426,2025-09-17T14:00:00,IT,KSA,label_change,Ad copy includes before/after images.,high
+CASE000427,2025-01-22T01:00:00,SupplyChain,KSA,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000428,2025-06-17T13:00:00,Marketing,EG,data_request,Customer data request processing guidance.,low
+CASE000429,2025-05-19T08:00:00,IT,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000430,2025-12-24T18:00:00,Marketing,EU,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000431,2025-02-17T01:00:00,Marketing,KSA,complaint_response,Need response template for complaint.,low
+CASE000432,2025-12-29T16:00:00,HR,EU,ingredient_change,Need response template for complaint.,high
+CASE000433,2025-08-02T06:00:00,Marketing,EU,label_change,Need approval for a new claim on packaging.,medium
+CASE000434,2025-05-18T06:00:00,IT,EU,data_request,Need response template for complaint.,high
+CASE000435,2025-09-05T06:00:00,Sales,EG,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000436,2025-12-19T21:00:00,HR,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE000437,2025-01-12T08:00:00,SupplyChain,EU,ingredient_change,Customer data request processing guidance.,medium
+CASE000438,2025-03-27T10:00:00,Sales,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000439,2025-08-16T04:00:00,Sales,EG,ingredient_change,Ad copy includes before/after images.,high
+CASE000440,2025-12-14T12:00:00,Sales,UAE,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000441,2025-05-21T00:00:00,HR,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000442,2025-02-24T14:00:00,IT,KSA,data_request,Customer data request processing guidance.,low
+CASE000443,2025-05-23T10:00:00,SupplyChain,KSA,ingredient_change,Ad copy includes before/after images.,high
+CASE000444,2025-05-15T16:00:00,Marketing,UAE,data_request,Need response template for complaint.,low
+CASE000445,2025-04-30T20:00:00,HR,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000446,2025-07-16T08:00:00,HR,UAE,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000447,2025-01-02T10:00:00,HR,KSA,ingredient_change,Need response template for complaint.,low
+CASE000448,2025-06-25T19:00:00,SupplyChain,UAE,label_change,Ad copy includes before/after images.,high
+CASE000449,2025-05-24T20:00:00,IT,KSA,label_change,Need response template for complaint.,high
+CASE000450,2025-06-30T10:00:00,Marketing,EU,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000451,2025-06-24T09:00:00,HR,EG,ingredient_change,Need response template for complaint.,medium
+CASE000452,2025-07-12T22:00:00,Sales,EG,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000453,2025-12-03T04:00:00,HR,EU,ingredient_change,Ad copy includes before/after images.,high
+CASE000454,2025-08-12T23:00:00,Sales,EU,ad_copy,Customer data request processing guidance.,high
+CASE000455,2025-05-04T02:00:00,IT,EU,data_request,Ad copy includes before/after images.,low
+CASE000456,2025-06-16T21:00:00,Sales,KSA,data_request,Need response template for complaint.,low
+CASE000457,2025-12-18T18:00:00,Marketing,EG,label_change,Need response template for complaint.,low
+CASE000458,2025-08-08T01:00:00,SupplyChain,KSA,label_change,Ad copy includes before/after images.,low
+CASE000459,2025-07-21T19:00:00,SupplyChain,EG,data_request,Customer data request processing guidance.,low
+CASE000460,2025-12-26T04:00:00,IT,KSA,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000461,2025-08-06T22:00:00,IT,EU,ingredient_change,Need response template for complaint.,medium
+CASE000462,2025-08-03T07:00:00,SupplyChain,UAE,data_request,Need response template for complaint.,medium
+CASE000463,2025-05-23T10:00:00,Sales,UAE,label_change,Ad copy includes before/after images.,low
+CASE000464,2025-06-11T05:00:00,Marketing,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000465,2025-10-17T19:00:00,Marketing,KSA,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000466,2025-06-13T17:00:00,Sales,EU,data_request,Need response template for complaint.,low
+CASE000467,2025-06-25T21:00:00,SupplyChain,UAE,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000468,2025-04-06T14:00:00,IT,EU,label_change,Ad copy includes before/after images.,medium
+CASE000469,2025-09-03T10:00:00,HR,UAE,label_change,Customer data request processing guidance.,medium
+CASE000470,2025-04-14T09:00:00,HR,EG,data_request,Need approval for a new claim on packaging.,medium
+CASE000471,2025-07-11T09:00:00,SupplyChain,EG,ad_copy,Customer data request processing guidance.,low
+CASE000472,2025-12-24T18:00:00,Sales,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE000473,2025-10-29T15:00:00,Marketing,EU,label_change,Customer data request processing guidance.,high
+CASE000474,2025-02-26T23:00:00,Sales,EU,label_change,Need approval for a new claim on packaging.,low
+CASE000475,2025-03-10T10:00:00,SupplyChain,EG,ad_copy,Customer data request processing guidance.,medium
+CASE000476,2025-09-22T20:00:00,SupplyChain,KSA,data_request,Need response template for complaint.,high
+CASE000477,2025-09-01T04:00:00,Sales,EG,data_request,Ad copy includes before/after images.,medium
+CASE000478,2025-04-02T17:00:00,Sales,EG,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000479,2025-09-18T21:00:00,IT,KSA,complaint_response,Need response template for complaint.,medium
+CASE000480,2025-07-15T00:00:00,HR,UAE,data_request,Need response template for complaint.,medium
+CASE000481,2025-06-13T16:00:00,SupplyChain,KSA,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000482,2025-03-05T04:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,high
+CASE000483,2025-07-23T17:00:00,Sales,EU,label_change,Ad copy includes before/after images.,medium
+CASE000484,2025-04-16T09:00:00,Sales,UAE,complaint_response,Need approval for a new claim on packaging.,high
+CASE000485,2025-08-18T21:00:00,SupplyChain,EG,label_change,Need approval for a new claim on packaging.,low
+CASE000486,2025-10-31T08:00:00,IT,EU,label_change,Customer data request processing guidance.,high
+CASE000487,2025-08-17T20:00:00,SupplyChain,KSA,label_change,Ad copy includes before/after images.,medium
+CASE000488,2025-02-28T12:00:00,Sales,KSA,data_request,Need response template for complaint.,low
+CASE000489,2025-04-30T01:00:00,Marketing,EG,ad_copy,Ad copy includes before/after images.,medium
+CASE000490,2025-01-02T01:00:00,IT,UAE,label_change,Need approval for a new claim on packaging.,low
+CASE000491,2025-11-15T06:00:00,HR,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000492,2025-08-20T19:00:00,HR,KSA,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000493,2025-06-24T14:00:00,Marketing,EU,ad_copy,Customer data request processing guidance.,high
+CASE000494,2025-12-16T22:00:00,IT,EU,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000495,2025-07-06T13:00:00,Sales,UAE,label_change,Need approval for a new claim on packaging.,low
+CASE000496,2025-03-07T21:00:00,Marketing,KSA,ad_copy,Need response template for complaint.,high
+CASE000497,2025-05-06T07:00:00,Sales,KSA,data_request,Need approval for a new claim on packaging.,high
+CASE000498,2025-07-26T10:00:00,HR,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE000499,2025-03-08T03:00:00,IT,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE000500,2025-02-23T16:00:00,SupplyChain,KSA,data_request,Need response template for complaint.,high
+CASE000501,2025-02-18T01:00:00,SupplyChain,UAE,ingredient_change,Need response template for complaint.,high
+CASE000502,2025-10-07T07:00:00,Sales,KSA,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000503,2025-06-11T13:00:00,Marketing,EU,data_request,Need response template for complaint.,medium
+CASE000504,2025-04-24T07:00:00,IT,UAE,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000505,2025-02-20T04:00:00,IT,KSA,complaint_response,Customer data request processing guidance.,high
+CASE000506,2025-04-05T11:00:00,Marketing,UAE,data_request,Ad copy includes before/after images.,low
+CASE000507,2025-04-12T00:00:00,SupplyChain,EG,label_change,Ad copy includes before/after images.,low
+CASE000508,2025-03-17T11:00:00,Marketing,UAE,data_request,Need approval for a new claim on packaging.,medium
+CASE000509,2025-03-12T09:00:00,Marketing,KSA,ad_copy,Customer data request processing guidance.,high
+CASE000510,2025-07-27T04:00:00,IT,KSA,data_request,Need response template for complaint.,low
+CASE000511,2025-03-13T22:00:00,Sales,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000512,2025-11-29T17:00:00,IT,EG,complaint_response,Customer data request processing guidance.,medium
+CASE000513,2025-02-05T23:00:00,IT,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000514,2025-03-12T14:00:00,Marketing,UAE,label_change,Need response template for complaint.,low
+CASE000515,2025-06-14T20:00:00,Sales,EU,ad_copy,Need response template for complaint.,high
+CASE000516,2025-08-04T12:00:00,HR,KSA,ad_copy,Need response template for complaint.,medium
+CASE000517,2025-09-12T23:00:00,HR,UAE,data_request,Customer data request processing guidance.,high
+CASE000518,2025-04-10T07:00:00,Marketing,KSA,ingredient_change,Need response template for complaint.,medium
+CASE000519,2025-04-23T06:00:00,Sales,EG,complaint_response,Customer data request processing guidance.,high
+CASE000520,2025-03-27T20:00:00,Sales,EG,data_request,Need approval for a new claim on packaging.,high
+CASE000521,2025-06-26T00:00:00,Sales,EU,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000522,2025-05-12T14:00:00,Sales,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000523,2025-05-03T13:00:00,Sales,KSA,ad_copy,Need approval for a new claim on packaging.,low
+CASE000524,2025-11-10T18:00:00,IT,UAE,label_change,Customer data request processing guidance.,medium
+CASE000525,2025-05-07T17:00:00,IT,KSA,data_request,Need approval for a new claim on packaging.,high
+CASE000526,2025-06-12T14:00:00,Sales,KSA,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000527,2025-05-22T20:00:00,Marketing,EU,complaint_response,Ad copy includes before/after images.,low
+CASE000528,2025-08-31T21:00:00,IT,EG,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000529,2025-08-04T14:00:00,IT,KSA,label_change,Ad copy includes before/after images.,low
+CASE000530,2025-05-05T00:00:00,IT,EU,ingredient_change,Ad copy includes before/after images.,high
+CASE000531,2025-03-20T08:00:00,HR,EU,ad_copy,Need response template for complaint.,medium
+CASE000532,2025-01-30T20:00:00,Sales,UAE,data_request,Customer data request processing guidance.,medium
+CASE000533,2025-02-27T02:00:00,Sales,KSA,complaint_response,Need response template for complaint.,high
+CASE000534,2025-04-03T12:00:00,Sales,UAE,data_request,Need approval for a new claim on packaging.,high
+CASE000535,2025-09-27T07:00:00,SupplyChain,KSA,complaint_response,Need approval for a new claim on packaging.,high
+CASE000536,2025-07-11T00:00:00,Sales,UAE,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000537,2025-02-06T09:00:00,IT,KSA,complaint_response,Need response template for complaint.,high
+CASE000538,2025-03-06T18:00:00,IT,EU,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000539,2025-11-27T23:00:00,IT,KSA,data_request,Need response template for complaint.,medium
+CASE000540,2025-04-24T18:00:00,IT,EG,complaint_response,Need response template for complaint.,high
+CASE000541,2025-12-16T02:00:00,SupplyChain,UAE,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000542,2025-07-16T03:00:00,Marketing,KSA,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000543,2025-05-20T08:00:00,HR,KSA,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000544,2025-01-08T22:00:00,Sales,EU,ad_copy,Customer data request processing guidance.,high
+CASE000545,2025-06-10T10:00:00,SupplyChain,KSA,ingredient_change,Need response template for complaint.,high
+CASE000546,2025-08-29T01:00:00,Marketing,EG,label_change,Customer data request processing guidance.,low
+CASE000547,2025-04-03T10:00:00,IT,KSA,complaint_response,Ad copy includes before/after images.,low
+CASE000548,2025-07-05T15:00:00,IT,EG,ingredient_change,Ad copy includes before/after images.,high
+CASE000549,2025-08-08T02:00:00,Marketing,EU,label_change,Need response template for complaint.,medium
+CASE000550,2025-12-29T04:00:00,Sales,EG,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000551,2025-07-12T20:00:00,SupplyChain,KSA,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000552,2025-10-24T05:00:00,HR,UAE,data_request,Customer data request processing guidance.,low
+CASE000553,2025-04-05T08:00:00,HR,UAE,data_request,Ad copy includes before/after images.,low
+CASE000554,2025-12-23T16:00:00,HR,EU,label_change,Need response template for complaint.,high
+CASE000555,2025-02-03T18:00:00,Marketing,EG,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000556,2025-08-15T06:00:00,Marketing,EG,label_change,Need response template for complaint.,high
+CASE000557,2025-08-05T01:00:00,SupplyChain,EU,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000558,2025-11-07T18:00:00,Marketing,KSA,complaint_response,Need response template for complaint.,low
+CASE000559,2025-01-28T05:00:00,Sales,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000560,2025-09-27T01:00:00,SupplyChain,KSA,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000561,2025-04-26T07:00:00,IT,EG,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000562,2025-12-30T22:00:00,SupplyChain,EG,data_request,Need response template for complaint.,low
+CASE000563,2025-08-06T11:00:00,HR,EG,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000564,2025-01-30T07:00:00,Sales,UAE,label_change,Need response template for complaint.,medium
+CASE000565,2025-12-17T11:00:00,HR,EG,ingredient_change,Need response template for complaint.,high
+CASE000566,2025-09-02T10:00:00,Marketing,UAE,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000567,2025-12-02T02:00:00,Sales,KSA,data_request,Ad copy includes before/after images.,medium
+CASE000568,2025-04-11T12:00:00,Marketing,EG,label_change,Ad copy includes before/after images.,high
+CASE000569,2025-07-06T17:00:00,Marketing,EG,data_request,Need response template for complaint.,high
+CASE000570,2025-11-14T01:00:00,SupplyChain,UAE,ad_copy,Ad copy includes before/after images.,high
+CASE000571,2025-02-02T17:00:00,Sales,EG,complaint_response,Customer data request processing guidance.,high
+CASE000572,2025-01-21T13:00:00,Sales,KSA,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000573,2025-08-27T20:00:00,Sales,EU,label_change,Ad copy includes before/after images.,low
+CASE000574,2025-02-23T16:00:00,HR,KSA,ingredient_change,Ad copy includes before/after images.,low
+CASE000575,2025-09-27T11:00:00,HR,UAE,ingredient_change,Need response template for complaint.,high
+CASE000576,2025-06-16T00:00:00,HR,EU,ad_copy,Need approval for a new claim on packaging.,low
+CASE000577,2025-05-19T13:00:00,Marketing,EU,complaint_response,Ad copy includes before/after images.,high
+CASE000578,2025-03-23T20:00:00,Sales,KSA,data_request,Need approval for a new claim on packaging.,medium
+CASE000579,2025-08-09T08:00:00,Marketing,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000580,2025-01-08T08:00:00,Sales,UAE,data_request,Need approval for a new claim on packaging.,high
+CASE000581,2025-03-14T04:00:00,Marketing,EG,complaint_response,Ad copy includes before/after images.,low
+CASE000582,2025-07-26T11:00:00,Sales,EG,ingredient_change,Customer data request processing guidance.,medium
+CASE000583,2025-12-07T11:00:00,Marketing,KSA,ad_copy,Customer data request processing guidance.,high
+CASE000584,2025-08-04T15:00:00,HR,EU,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000585,2025-04-06T20:00:00,IT,UAE,complaint_response,Ad copy includes before/after images.,medium
+CASE000586,2025-07-03T15:00:00,SupplyChain,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000587,2025-11-26T04:00:00,IT,KSA,ingredient_change,Need response template for complaint.,medium
+CASE000588,2025-01-18T18:00:00,HR,EU,ingredient_change,Need response template for complaint.,high
+CASE000589,2025-06-28T02:00:00,Sales,EG,data_request,Need approval for a new claim on packaging.,medium
+CASE000590,2025-12-23T06:00:00,Sales,UAE,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000591,2025-09-29T18:00:00,Marketing,EG,data_request,Customer data request processing guidance.,medium
+CASE000592,2025-06-19T06:00:00,HR,EG,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000593,2025-05-30T13:00:00,IT,EG,ad_copy,Need approval for a new claim on packaging.,low
+CASE000594,2025-03-19T21:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,medium
+CASE000595,2025-02-11T14:00:00,IT,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000596,2025-06-03T08:00:00,SupplyChain,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000597,2025-08-12T04:00:00,Sales,EG,label_change,Need response template for complaint.,high
+CASE000598,2025-04-13T18:00:00,Sales,EU,complaint_response,Customer data request processing guidance.,high
+CASE000599,2025-02-21T14:00:00,Sales,EG,label_change,Ad copy includes before/after images.,low
+CASE000600,2025-10-22T05:00:00,Sales,EU,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000601,2025-06-23T12:00:00,Sales,EG,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000602,2025-04-15T04:00:00,SupplyChain,EU,ingredient_change,Customer data request processing guidance.,medium
+CASE000603,2025-10-07T22:00:00,IT,KSA,data_request,Need response template for complaint.,low
+CASE000604,2025-01-29T13:00:00,Marketing,KSA,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000605,2025-08-10T03:00:00,Sales,UAE,data_request,Customer data request processing guidance.,medium
+CASE000606,2025-11-26T21:00:00,Sales,EU,data_request,Customer data request processing guidance.,medium
+CASE000607,2025-10-25T18:00:00,IT,EG,ingredient_change,Ad copy includes before/after images.,medium
+CASE000608,2025-05-24T03:00:00,Marketing,EG,ingredient_change,Customer data request processing guidance.,medium
+CASE000609,2025-11-24T00:00:00,IT,EG,ingredient_change,Customer data request processing guidance.,high
+CASE000610,2025-06-27T21:00:00,IT,UAE,label_change,Customer data request processing guidance.,medium
+CASE000611,2025-06-24T23:00:00,Sales,EU,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000612,2025-08-12T18:00:00,SupplyChain,UAE,label_change,Customer data request processing guidance.,low
+CASE000613,2025-01-01T06:00:00,IT,EU,label_change,Customer data request processing guidance.,high
+CASE000614,2025-01-26T01:00:00,HR,EG,ingredient_change,Customer data request processing guidance.,high
+CASE000615,2025-02-11T06:00:00,Marketing,EU,ingredient_change,Customer data request processing guidance.,low
+CASE000616,2025-10-27T18:00:00,Sales,UAE,complaint_response,Need response template for complaint.,low
+CASE000617,2025-09-03T02:00:00,IT,KSA,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000618,2025-02-18T04:00:00,Sales,KSA,ingredient_change,Customer data request processing guidance.,medium
+CASE000619,2025-02-26T17:00:00,HR,EU,label_change,Need approval for a new claim on packaging.,medium
+CASE000620,2025-03-26T16:00:00,Marketing,EG,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000621,2025-11-30T06:00:00,HR,KSA,complaint_response,Need approval for a new claim on packaging.,low
+CASE000622,2025-09-24T05:00:00,IT,KSA,data_request,Ad copy includes before/after images.,high
+CASE000623,2025-08-06T23:00:00,IT,KSA,label_change,Need response template for complaint.,low
+CASE000624,2025-06-22T21:00:00,Sales,KSA,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000625,2025-09-12T12:00:00,SupplyChain,EU,ad_copy,Need response template for complaint.,low
+CASE000626,2025-01-19T12:00:00,Sales,EU,complaint_response,Need approval for a new claim on packaging.,low
+CASE000627,2025-02-07T09:00:00,SupplyChain,UAE,ad_copy,Ad copy includes before/after images.,medium
+CASE000628,2025-04-27T19:00:00,Marketing,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000629,2025-08-02T21:00:00,IT,UAE,complaint_response,Need response template for complaint.,medium
+CASE000630,2025-01-25T00:00:00,Sales,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000631,2025-01-30T04:00:00,SupplyChain,KSA,ad_copy,Ad copy includes before/after images.,high
+CASE000632,2025-06-05T23:00:00,Marketing,EU,ad_copy,Need response template for complaint.,high
+CASE000633,2025-09-27T12:00:00,Marketing,EG,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000634,2025-08-28T23:00:00,SupplyChain,KSA,ingredient_change,Ad copy includes before/after images.,medium
+CASE000635,2025-11-28T22:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,medium
+CASE000636,2025-11-16T05:00:00,HR,EU,complaint_response,Need response template for complaint.,low
+CASE000637,2025-03-23T16:00:00,Marketing,KSA,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000638,2025-04-27T12:00:00,SupplyChain,UAE,data_request,Ad copy includes before/after images.,high
+CASE000639,2025-03-05T15:00:00,IT,EG,ingredient_change,Customer data request processing guidance.,medium
+CASE000640,2025-11-25T23:00:00,SupplyChain,EG,ingredient_change,Need response template for complaint.,high
+CASE000641,2025-01-07T19:00:00,Sales,UAE,ingredient_change,Customer data request processing guidance.,low
+CASE000642,2025-05-12T00:00:00,HR,UAE,data_request,Need approval for a new claim on packaging.,high
+CASE000643,2025-09-05T06:00:00,IT,UAE,data_request,Need response template for complaint.,high
+CASE000644,2025-11-08T02:00:00,HR,KSA,label_change,Ad copy includes before/after images.,medium
+CASE000645,2025-11-28T23:00:00,SupplyChain,KSA,ad_copy,Ad copy includes before/after images.,high
+CASE000646,2025-06-02T20:00:00,Marketing,KSA,ingredient_change,Need response template for complaint.,medium
+CASE000647,2025-09-05T17:00:00,SupplyChain,EG,data_request,Need approval for a new claim on packaging.,medium
+CASE000648,2025-08-14T06:00:00,Sales,EU,ad_copy,Need response template for complaint.,medium
+CASE000649,2025-09-02T08:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000650,2025-01-06T21:00:00,Sales,EU,complaint_response,Ad copy includes before/after images.,low
+CASE000651,2025-09-27T05:00:00,Sales,KSA,data_request,Customer data request processing guidance.,high
+CASE000652,2025-11-09T13:00:00,HR,EG,data_request,Ad copy includes before/after images.,medium
+CASE000653,2025-12-14T16:00:00,HR,EU,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000654,2025-04-01T16:00:00,IT,EG,data_request,Need response template for complaint.,high
+CASE000655,2025-11-29T09:00:00,IT,KSA,complaint_response,Ad copy includes before/after images.,low
+CASE000656,2025-07-20T14:00:00,HR,EU,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000657,2025-12-26T13:00:00,IT,KSA,label_change,Need approval for a new claim on packaging.,high
+CASE000658,2025-11-18T05:00:00,SupplyChain,EG,label_change,Need approval for a new claim on packaging.,high
+CASE000659,2025-03-24T17:00:00,Sales,EU,complaint_response,Customer data request processing guidance.,high
+CASE000660,2025-07-17T11:00:00,Sales,KSA,label_change,Ad copy includes before/after images.,high
+CASE000661,2025-06-15T17:00:00,Marketing,UAE,data_request,Need response template for complaint.,high
+CASE000662,2025-04-08T05:00:00,HR,EU,label_change,Need approval for a new claim on packaging.,high
+CASE000663,2025-11-19T20:00:00,HR,UAE,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000664,2025-02-17T07:00:00,Marketing,UAE,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000665,2025-02-19T18:00:00,Sales,UAE,ingredient_change,Need response template for complaint.,low
+CASE000666,2025-10-17T18:00:00,Sales,EU,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000667,2025-07-31T20:00:00,Marketing,KSA,label_change,Customer data request processing guidance.,high
+CASE000668,2025-11-16T08:00:00,SupplyChain,KSA,complaint_response,Need response template for complaint.,medium
+CASE000669,2025-02-20T12:00:00,Marketing,EG,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000670,2025-03-15T03:00:00,SupplyChain,EG,complaint_response,Customer data request processing guidance.,high
+CASE000671,2025-07-13T03:00:00,Marketing,KSA,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000672,2025-04-15T05:00:00,Marketing,EG,data_request,Ad copy includes before/after images.,low
+CASE000673,2025-04-18T03:00:00,HR,EG,label_change,Need response template for complaint.,medium
+CASE000674,2025-12-26T10:00:00,IT,UAE,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000675,2025-12-05T07:00:00,Sales,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000676,2025-11-11T03:00:00,HR,KSA,complaint_response,Customer data request processing guidance.,high
+CASE000677,2025-09-17T14:00:00,HR,UAE,complaint_response,Ad copy includes before/after images.,high
+CASE000678,2025-04-04T07:00:00,Sales,KSA,ingredient_change,Ad copy includes before/after images.,low
+CASE000679,2025-06-02T20:00:00,Sales,EG,data_request,Customer data request processing guidance.,medium
+CASE000680,2025-03-28T22:00:00,IT,UAE,ingredient_change,Ad copy includes before/after images.,low
+CASE000681,2025-04-05T08:00:00,Marketing,KSA,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000682,2025-01-04T08:00:00,Sales,UAE,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000683,2025-03-02T15:00:00,Marketing,KSA,ingredient_change,Ad copy includes before/after images.,low
+CASE000684,2025-04-26T15:00:00,HR,UAE,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000685,2025-07-11T07:00:00,Marketing,KSA,ingredient_change,Ad copy includes before/after images.,medium
+CASE000686,2025-02-25T18:00:00,SupplyChain,UAE,data_request,Customer data request processing guidance.,low
+CASE000687,2025-08-26T07:00:00,IT,UAE,complaint_response,Need response template for complaint.,high
+CASE000688,2025-05-22T03:00:00,SupplyChain,EU,data_request,Customer data request processing guidance.,medium
+CASE000689,2025-12-28T19:00:00,Marketing,KSA,ad_copy,Need response template for complaint.,low
+CASE000690,2025-02-24T03:00:00,IT,UAE,ingredient_change,Customer data request processing guidance.,high
+CASE000691,2025-05-07T15:00:00,Sales,EU,ad_copy,Need approval for a new claim on packaging.,low
+CASE000692,2025-08-16T17:00:00,IT,EG,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000693,2025-10-03T16:00:00,IT,UAE,ingredient_change,Customer data request processing guidance.,low
+CASE000694,2025-04-14T23:00:00,Marketing,EU,label_change,Need response template for complaint.,low
+CASE000695,2025-09-14T15:00:00,SupplyChain,EG,complaint_response,Ad copy includes before/after images.,high
+CASE000696,2025-05-07T15:00:00,IT,UAE,ingredient_change,Ad copy includes before/after images.,medium
+CASE000697,2025-06-28T14:00:00,HR,KSA,ingredient_change,Customer data request processing guidance.,high
+CASE000698,2025-03-24T16:00:00,IT,KSA,data_request,Customer data request processing guidance.,low
+CASE000699,2025-01-03T11:00:00,HR,UAE,ad_copy,Customer data request processing guidance.,high
+CASE000700,2025-04-23T06:00:00,IT,KSA,label_change,Ad copy includes before/after images.,medium
+CASE000701,2025-05-10T03:00:00,Sales,EU,complaint_response,Need approval for a new claim on packaging.,high
+CASE000702,2025-05-16T13:00:00,HR,EG,ad_copy,Customer data request processing guidance.,medium
+CASE000703,2025-04-03T03:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,high
+CASE000704,2025-03-09T15:00:00,Sales,EU,complaint_response,Ad copy includes before/after images.,high
+CASE000705,2025-10-02T02:00:00,IT,EU,ad_copy,Customer data request processing guidance.,medium
+CASE000706,2025-03-14T16:00:00,HR,EG,label_change,Need response template for complaint.,low
+CASE000707,2025-01-02T05:00:00,Sales,UAE,data_request,Need response template for complaint.,high
+CASE000708,2025-07-29T17:00:00,Marketing,EU,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000709,2025-07-31T15:00:00,IT,KSA,data_request,Ad copy includes before/after images.,medium
+CASE000710,2025-09-29T00:00:00,Marketing,KSA,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000711,2025-05-26T19:00:00,HR,KSA,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000712,2025-05-06T05:00:00,HR,EG,ad_copy,Need response template for complaint.,medium
+CASE000713,2025-11-15T18:00:00,Marketing,KSA,complaint_response,Need response template for complaint.,high
+CASE000714,2025-11-09T17:00:00,SupplyChain,EG,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000715,2025-07-13T22:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,low
+CASE000716,2025-08-13T06:00:00,SupplyChain,KSA,data_request,Need approval for a new claim on packaging.,low
+CASE000717,2025-11-26T04:00:00,Marketing,UAE,complaint_response,Customer data request processing guidance.,medium
+CASE000718,2025-02-02T08:00:00,Marketing,EU,data_request,Need approval for a new claim on packaging.,medium
+CASE000719,2025-05-05T12:00:00,SupplyChain,UAE,data_request,Customer data request processing guidance.,medium
+CASE000720,2025-06-06T07:00:00,Marketing,EU,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000721,2025-02-15T00:00:00,Marketing,EG,complaint_response,Ad copy includes before/after images.,low
+CASE000722,2025-07-22T20:00:00,SupplyChain,EG,label_change,Need approval for a new claim on packaging.,medium
+CASE000723,2025-05-26T00:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,low
+CASE000724,2025-11-15T09:00:00,Marketing,KSA,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000725,2025-10-17T11:00:00,SupplyChain,EU,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000726,2025-05-03T06:00:00,HR,KSA,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000727,2025-05-26T00:00:00,Sales,EG,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000728,2025-02-03T12:00:00,HR,EU,ad_copy,Need response template for complaint.,medium
+CASE000729,2025-12-02T16:00:00,Marketing,EU,ingredient_change,Need response template for complaint.,high
+CASE000730,2025-01-16T07:00:00,Sales,EU,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000731,2025-12-15T16:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000732,2025-10-18T19:00:00,Sales,KSA,label_change,Need approval for a new claim on packaging.,medium
+CASE000733,2025-10-06T20:00:00,SupplyChain,EU,complaint_response,Ad copy includes before/after images.,medium
+CASE000734,2025-01-06T01:00:00,HR,UAE,data_request,Need approval for a new claim on packaging.,medium
+CASE000735,2025-07-14T12:00:00,SupplyChain,KSA,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000736,2025-03-01T10:00:00,HR,KSA,complaint_response,Need response template for complaint.,medium
+CASE000737,2025-01-11T10:00:00,IT,KSA,data_request,Customer data request processing guidance.,high
+CASE000738,2025-06-14T01:00:00,IT,EU,label_change,Need response template for complaint.,low
+CASE000739,2025-04-04T20:00:00,Sales,UAE,ingredient_change,Need response template for complaint.,medium
+CASE000740,2025-01-18T21:00:00,SupplyChain,EU,ad_copy,Need response template for complaint.,high
+CASE000741,2025-01-18T18:00:00,HR,EU,label_change,Customer data request processing guidance.,medium
+CASE000742,2025-04-27T12:00:00,Marketing,EG,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000743,2025-03-12T11:00:00,Sales,EG,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000744,2025-01-28T02:00:00,Sales,EG,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000745,2025-01-29T10:00:00,IT,EG,data_request,Need response template for complaint.,high
+CASE000746,2025-11-03T21:00:00,HR,EU,label_change,Ad copy includes before/after images.,low
+CASE000747,2025-09-03T13:00:00,Sales,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE000748,2025-08-05T17:00:00,Marketing,UAE,data_request,Need approval for a new claim on packaging.,high
+CASE000749,2025-05-17T20:00:00,Sales,UAE,complaint_response,Ad copy includes before/after images.,medium
+CASE000750,2025-04-05T19:00:00,Sales,EU,ad_copy,Need response template for complaint.,high
+CASE000751,2025-12-29T07:00:00,HR,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000752,2025-06-04T23:00:00,IT,EG,ad_copy,Ad copy includes before/after images.,low
+CASE000753,2025-11-27T15:00:00,Sales,EG,ingredient_change,Customer data request processing guidance.,medium
+CASE000754,2025-07-25T22:00:00,HR,EG,ingredient_change,Customer data request processing guidance.,medium
+CASE000755,2025-01-24T15:00:00,Marketing,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000756,2025-04-05T13:00:00,IT,KSA,data_request,Ad copy includes before/after images.,medium
+CASE000757,2025-04-01T19:00:00,Sales,EU,ad_copy,Need response template for complaint.,high
+CASE000758,2025-04-11T11:00:00,Sales,EG,complaint_response,Need response template for complaint.,high
+CASE000759,2025-05-14T17:00:00,HR,EG,data_request,Ad copy includes before/after images.,high
+CASE000760,2025-03-21T23:00:00,Marketing,EG,label_change,Need approval for a new claim on packaging.,medium
+CASE000761,2025-12-15T03:00:00,Marketing,EU,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000762,2025-10-27T09:00:00,Marketing,EU,ad_copy,Customer data request processing guidance.,low
+CASE000763,2025-02-14T02:00:00,Marketing,KSA,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000764,2025-12-25T07:00:00,IT,EU,ingredient_change,Customer data request processing guidance.,high
+CASE000765,2025-11-29T17:00:00,Marketing,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000766,2025-03-08T22:00:00,IT,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000767,2025-01-25T08:00:00,SupplyChain,KSA,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000768,2025-10-14T05:00:00,HR,KSA,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000769,2025-05-13T17:00:00,SupplyChain,EU,ingredient_change,Need response template for complaint.,medium
+CASE000770,2025-09-12T00:00:00,Sales,EG,ad_copy,Ad copy includes before/after images.,medium
+CASE000771,2025-10-24T13:00:00,HR,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000772,2025-11-08T04:00:00,IT,EU,ingredient_change,Ad copy includes before/after images.,low
+CASE000773,2025-04-01T19:00:00,SupplyChain,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000774,2025-01-27T01:00:00,SupplyChain,UAE,data_request,Need response template for complaint.,medium
+CASE000775,2025-04-29T19:00:00,IT,EU,label_change,Need response template for complaint.,medium
+CASE000776,2025-05-14T13:00:00,Marketing,EG,data_request,Ad copy includes before/after images.,medium
+CASE000777,2025-02-11T05:00:00,IT,EG,complaint_response,Ad copy includes before/after images.,medium
+CASE000778,2025-05-12T13:00:00,HR,KSA,ad_copy,Customer data request processing guidance.,high
+CASE000779,2025-02-22T21:00:00,Sales,EG,ad_copy,Customer data request processing guidance.,low
+CASE000780,2025-07-20T06:00:00,Sales,UAE,data_request,Need approval for a new claim on packaging.,medium
+CASE000781,2025-02-23T02:00:00,Sales,KSA,ingredient_change,Customer data request processing guidance.,high
+CASE000782,2025-09-14T10:00:00,IT,EG,ad_copy,Customer data request processing guidance.,low
+CASE000783,2025-08-25T11:00:00,IT,KSA,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000784,2025-08-13T05:00:00,HR,KSA,data_request,Need approval for a new claim on packaging.,low
+CASE000785,2025-02-23T03:00:00,SupplyChain,UAE,label_change,Customer data request processing guidance.,high
+CASE000786,2025-05-03T00:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000787,2025-04-05T10:00:00,Marketing,UAE,ad_copy,Ad copy includes before/after images.,high
+CASE000788,2025-12-15T01:00:00,Sales,EU,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000789,2025-09-24T14:00:00,HR,KSA,label_change,Need approval for a new claim on packaging.,high
+CASE000790,2025-01-10T11:00:00,IT,KSA,complaint_response,Need approval for a new claim on packaging.,high
+CASE000791,2025-03-28T16:00:00,IT,UAE,data_request,Ad copy includes before/after images.,high
+CASE000792,2025-03-14T06:00:00,HR,KSA,label_change,Need response template for complaint.,medium
+CASE000793,2025-10-08T05:00:00,SupplyChain,EU,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000794,2025-09-17T10:00:00,IT,UAE,data_request,Need approval for a new claim on packaging.,medium
+CASE000795,2025-10-25T10:00:00,SupplyChain,UAE,data_request,Ad copy includes before/after images.,high
+CASE000796,2025-11-01T11:00:00,Marketing,EG,label_change,Need response template for complaint.,high
+CASE000797,2025-04-07T04:00:00,SupplyChain,EG,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000798,2025-11-26T05:00:00,HR,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000799,2025-10-11T16:00:00,Sales,EG,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000800,2025-02-27T04:00:00,SupplyChain,KSA,label_change,Need response template for complaint.,low
+CASE000801,2025-11-11T14:00:00,Sales,KSA,label_change,Customer data request processing guidance.,medium
+CASE000802,2025-04-05T18:00:00,IT,KSA,label_change,Need approval for a new claim on packaging.,high
+CASE000803,2025-07-08T23:00:00,Marketing,EU,complaint_response,Ad copy includes before/after images.,medium
+CASE000804,2025-02-09T09:00:00,Marketing,KSA,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000805,2025-04-26T06:00:00,Marketing,EU,label_change,Customer data request processing guidance.,medium
+CASE000806,2025-03-17T05:00:00,Sales,KSA,ingredient_change,Customer data request processing guidance.,low
+CASE000807,2025-08-23T20:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000808,2025-01-13T16:00:00,SupplyChain,EG,ingredient_change,Ad copy includes before/after images.,medium
+CASE000809,2025-04-24T03:00:00,SupplyChain,KSA,data_request,Customer data request processing guidance.,medium
+CASE000810,2025-08-15T10:00:00,IT,EG,label_change,Customer data request processing guidance.,low
+CASE000811,2025-08-11T23:00:00,IT,EG,complaint_response,Need response template for complaint.,medium
+CASE000812,2025-12-13T10:00:00,Marketing,UAE,data_request,Customer data request processing guidance.,high
+CASE000813,2025-02-04T20:00:00,HR,UAE,label_change,Need approval for a new claim on packaging.,medium
+CASE000814,2025-10-22T12:00:00,IT,UAE,data_request,Need approval for a new claim on packaging.,medium
+CASE000815,2025-11-23T11:00:00,IT,UAE,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000816,2025-12-28T19:00:00,Sales,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE000817,2025-07-17T10:00:00,IT,EU,ad_copy,Ad copy includes before/after images.,high
+CASE000818,2025-02-03T07:00:00,Marketing,UAE,label_change,Ad copy includes before/after images.,low
+CASE000819,2025-01-08T08:00:00,Sales,EG,data_request,Need response template for complaint.,low
+CASE000820,2025-10-23T16:00:00,Marketing,EU,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000821,2025-12-27T02:00:00,HR,EU,label_change,Need response template for complaint.,low
+CASE000822,2025-09-13T01:00:00,HR,EG,ad_copy,Ad copy includes before/after images.,medium
+CASE000823,2025-04-12T00:00:00,SupplyChain,EG,ad_copy,Customer data request processing guidance.,low
+CASE000824,2025-12-24T13:00:00,IT,UAE,label_change,Need response template for complaint.,high
+CASE000825,2025-07-19T11:00:00,Sales,KSA,label_change,Customer data request processing guidance.,low
+CASE000826,2025-12-06T07:00:00,IT,EG,ingredient_change,Need response template for complaint.,low
+CASE000827,2025-08-26T20:00:00,SupplyChain,KSA,label_change,Need response template for complaint.,medium
+CASE000828,2025-10-05T01:00:00,HR,KSA,ad_copy,Ad copy includes before/after images.,high
+CASE000829,2025-09-27T19:00:00,SupplyChain,KSA,complaint_response,Need response template for complaint.,high
+CASE000830,2025-02-07T06:00:00,Marketing,KSA,label_change,Ad copy includes before/after images.,low
+CASE000831,2025-04-26T14:00:00,IT,EU,label_change,Need response template for complaint.,high
+CASE000832,2025-07-13T11:00:00,Sales,EU,ingredient_change,Need response template for complaint.,high
+CASE000833,2025-02-12T07:00:00,IT,EU,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000834,2025-07-13T19:00:00,Marketing,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000835,2025-11-18T11:00:00,HR,UAE,data_request,Ad copy includes before/after images.,medium
+CASE000836,2025-11-20T02:00:00,HR,EG,ingredient_change,Need response template for complaint.,high
+CASE000837,2025-07-07T16:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000838,2025-12-23T15:00:00,SupplyChain,UAE,ad_copy,Need approval for a new claim on packaging.,low
+CASE000839,2025-07-07T11:00:00,HR,EG,data_request,Ad copy includes before/after images.,high
+CASE000840,2025-10-04T19:00:00,IT,EG,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000841,2025-11-25T09:00:00,HR,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE000842,2025-12-12T20:00:00,HR,KSA,complaint_response,Ad copy includes before/after images.,high
+CASE000843,2025-01-09T08:00:00,Sales,UAE,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000844,2025-02-16T19:00:00,Marketing,UAE,data_request,Customer data request processing guidance.,high
+CASE000845,2025-09-11T01:00:00,Sales,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000846,2025-08-24T01:00:00,HR,KSA,data_request,Need approval for a new claim on packaging.,low
+CASE000847,2025-06-06T11:00:00,Marketing,EU,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000848,2025-05-05T10:00:00,Marketing,UAE,complaint_response,Need response template for complaint.,medium
+CASE000849,2025-07-31T22:00:00,Sales,EU,data_request,Customer data request processing guidance.,medium
+CASE000850,2025-11-21T18:00:00,HR,EU,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000851,2025-08-26T08:00:00,Marketing,EU,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000852,2025-06-29T01:00:00,IT,KSA,label_change,Ad copy includes before/after images.,high
+CASE000853,2025-03-05T08:00:00,Marketing,EU,label_change,Need response template for complaint.,low
+CASE000854,2025-11-09T00:00:00,Sales,UAE,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000855,2025-12-07T07:00:00,IT,KSA,ingredient_change,Ad copy includes before/after images.,high
+CASE000856,2025-07-24T21:00:00,HR,KSA,ad_copy,Ad copy includes before/after images.,medium
+CASE000857,2025-01-09T18:00:00,SupplyChain,EU,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000858,2025-06-07T23:00:00,HR,KSA,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000859,2025-07-06T13:00:00,Sales,UAE,label_change,Ad copy includes before/after images.,high
+CASE000860,2025-07-19T07:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000861,2025-02-28T23:00:00,IT,EG,complaint_response,Need response template for complaint.,high
+CASE000862,2025-05-16T18:00:00,HR,UAE,data_request,Customer data request processing guidance.,medium
+CASE000863,2025-03-21T12:00:00,Marketing,EU,label_change,Need approval for a new claim on packaging.,low
+CASE000864,2025-10-17T08:00:00,IT,KSA,data_request,Need response template for complaint.,high
+CASE000865,2025-06-29T00:00:00,SupplyChain,UAE,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000866,2025-07-05T21:00:00,IT,EU,ingredient_change,Customer data request processing guidance.,high
+CASE000867,2025-03-11T10:00:00,IT,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE000868,2025-10-12T07:00:00,HR,EU,ad_copy,Need response template for complaint.,low
+CASE000869,2025-05-30T20:00:00,HR,UAE,ingredient_change,Ad copy includes before/after images.,high
+CASE000870,2025-01-12T05:00:00,SupplyChain,EU,complaint_response,Ad copy includes before/after images.,high
+CASE000871,2025-11-04T11:00:00,Sales,KSA,ad_copy,Customer data request processing guidance.,low
+CASE000872,2025-01-11T18:00:00,Sales,EU,ad_copy,Customer data request processing guidance.,high
+CASE000873,2025-06-10T08:00:00,Marketing,KSA,label_change,Ad copy includes before/after images.,medium
+CASE000874,2025-12-08T20:00:00,HR,EU,ingredient_change,Ad copy includes before/after images.,high
+CASE000875,2025-06-12T02:00:00,Sales,EG,complaint_response,Customer data request processing guidance.,high
+CASE000876,2025-01-05T04:00:00,SupplyChain,UAE,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000877,2025-12-20T23:00:00,HR,EG,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000878,2025-10-23T16:00:00,SupplyChain,UAE,label_change,Ad copy includes before/after images.,high
+CASE000879,2025-04-05T10:00:00,Marketing,EG,data_request,Customer data request processing guidance.,medium
+CASE000880,2025-05-13T00:00:00,Marketing,EU,complaint_response,Need response template for complaint.,high
+CASE000881,2025-12-04T00:00:00,IT,EG,label_change,Need response template for complaint.,low
+CASE000882,2025-01-25T10:00:00,IT,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE000883,2025-09-02T03:00:00,IT,EU,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000884,2025-10-30T09:00:00,IT,UAE,label_change,Need response template for complaint.,medium
+CASE000885,2025-12-18T06:00:00,SupplyChain,KSA,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000886,2025-01-15T07:00:00,Marketing,UAE,ad_copy,Ad copy includes before/after images.,medium
+CASE000887,2025-07-04T00:00:00,SupplyChain,UAE,complaint_response,Customer data request processing guidance.,medium
+CASE000888,2025-03-17T04:00:00,SupplyChain,EG,data_request,Need approval for a new claim on packaging.,low
+CASE000889,2025-05-11T18:00:00,Marketing,UAE,complaint_response,Customer data request processing guidance.,high
+CASE000890,2025-04-18T05:00:00,SupplyChain,EU,complaint_response,Customer data request processing guidance.,high
+CASE000891,2025-04-09T00:00:00,HR,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000892,2025-08-09T04:00:00,Sales,KSA,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000893,2025-03-07T19:00:00,Sales,EU,complaint_response,Ad copy includes before/after images.,medium
+CASE000894,2025-03-03T03:00:00,Sales,EU,label_change,Need response template for complaint.,high
+CASE000895,2025-05-26T20:00:00,SupplyChain,EG,ingredient_change,Ad copy includes before/after images.,low
+CASE000896,2025-09-06T10:00:00,SupplyChain,EU,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000897,2025-10-14T01:00:00,Marketing,EG,complaint_response,Need response template for complaint.,high
+CASE000898,2025-11-29T04:00:00,Marketing,EU,complaint_response,Ad copy includes before/after images.,medium
+CASE000899,2025-04-23T04:00:00,Sales,EU,complaint_response,Customer data request processing guidance.,low
+CASE000900,2025-10-10T11:00:00,Sales,EG,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000901,2025-05-16T21:00:00,Marketing,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000902,2025-11-02T06:00:00,HR,EU,ingredient_change,Customer data request processing guidance.,high
+CASE000903,2025-05-29T10:00:00,Sales,EU,data_request,Need approval for a new claim on packaging.,low
+CASE000904,2025-09-17T16:00:00,Sales,UAE,ad_copy,Need response template for complaint.,medium
+CASE000905,2025-07-20T20:00:00,IT,EG,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000906,2025-06-06T23:00:00,SupplyChain,UAE,data_request,Customer data request processing guidance.,low
+CASE000907,2025-11-07T07:00:00,IT,UAE,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000908,2025-01-22T09:00:00,SupplyChain,KSA,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000909,2025-11-20T01:00:00,SupplyChain,EG,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE000910,2025-09-20T23:00:00,IT,EU,complaint_response,Customer data request processing guidance.,high
+CASE000911,2025-06-29T09:00:00,Marketing,UAE,data_request,Ad copy includes before/after images.,low
+CASE000912,2025-08-10T19:00:00,HR,KSA,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000913,2025-11-22T19:00:00,HR,KSA,label_change,Customer data request processing guidance.,low
+CASE000914,2025-06-30T03:00:00,SupplyChain,UAE,complaint_response,Need approval for a new claim on packaging.,high
+CASE000915,2025-01-26T22:00:00,Sales,UAE,complaint_response,Customer data request processing guidance.,low
+CASE000916,2025-08-30T16:00:00,Sales,KSA,data_request,Need approval for a new claim on packaging.,high
+CASE000917,2025-10-10T10:00:00,IT,EU,ingredient_change,Ad copy includes before/after images.,low
+CASE000918,2025-11-13T13:00:00,IT,EU,ingredient_change,Customer data request processing guidance.,medium
+CASE000919,2025-07-22T16:00:00,IT,EU,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000920,2025-06-17T07:00:00,Sales,KSA,label_change,Ad copy includes before/after images.,low
+CASE000921,2025-06-24T13:00:00,IT,EG,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000922,2025-09-16T02:00:00,SupplyChain,EU,ingredient_change,Ad copy includes before/after images.,high
+CASE000923,2025-01-18T08:00:00,Sales,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE000924,2025-03-02T11:00:00,HR,EG,data_request,Ad copy includes before/after images.,low
+CASE000925,2025-06-21T10:00:00,IT,UAE,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000926,2025-06-17T07:00:00,HR,UAE,label_change,Ingredient substitution due to supplier shortage.,low
+CASE000927,2025-02-03T16:00:00,IT,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE000928,2025-02-19T15:00:00,Sales,UAE,label_change,Customer data request processing guidance.,medium
+CASE000929,2025-01-30T06:00:00,SupplyChain,UAE,complaint_response,Need approval for a new claim on packaging.,low
+CASE000930,2025-02-08T05:00:00,HR,UAE,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE000931,2025-11-13T11:00:00,HR,UAE,label_change,Ad copy includes before/after images.,low
+CASE000932,2025-03-23T02:00:00,SupplyChain,EG,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000933,2025-08-26T00:00:00,Sales,KSA,data_request,Need response template for complaint.,low
+CASE000934,2025-07-22T13:00:00,Marketing,KSA,ad_copy,Ad copy includes before/after images.,high
+CASE000935,2025-06-22T02:00:00,IT,KSA,label_change,Customer data request processing guidance.,low
+CASE000936,2025-09-10T22:00:00,Sales,EG,label_change,Customer data request processing guidance.,high
+CASE000937,2025-06-24T16:00:00,SupplyChain,EU,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000938,2025-11-13T20:00:00,HR,KSA,label_change,Ad copy includes before/after images.,high
+CASE000939,2025-09-15T17:00:00,IT,UAE,ad_copy,Need approval for a new claim on packaging.,low
+CASE000940,2025-03-08T11:00:00,SupplyChain,UAE,data_request,Need approval for a new claim on packaging.,high
+CASE000941,2025-04-09T04:00:00,SupplyChain,EG,ad_copy,Customer data request processing guidance.,high
+CASE000942,2025-01-31T12:00:00,SupplyChain,EU,ingredient_change,Ad copy includes before/after images.,high
+CASE000943,2025-03-04T17:00:00,Sales,EU,complaint_response,Ad copy includes before/after images.,high
+CASE000944,2025-04-13T11:00:00,SupplyChain,UAE,ingredient_change,Customer data request processing guidance.,high
+CASE000945,2025-11-06T06:00:00,HR,KSA,ad_copy,Need approval for a new claim on packaging.,medium
+CASE000946,2025-10-27T14:00:00,Sales,UAE,complaint_response,Customer data request processing guidance.,low
+CASE000947,2025-05-13T13:00:00,Marketing,UAE,data_request,Ad copy includes before/after images.,medium
+CASE000948,2025-10-31T18:00:00,SupplyChain,EU,data_request,Need approval for a new claim on packaging.,low
+CASE000949,2025-09-06T20:00:00,Marketing,KSA,complaint_response,Need response template for complaint.,medium
+CASE000950,2025-03-06T20:00:00,SupplyChain,UAE,ingredient_change,Customer data request processing guidance.,medium
+CASE000951,2025-07-07T21:00:00,HR,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE000952,2025-11-18T21:00:00,IT,EG,ad_copy,Ad copy includes before/after images.,high
+CASE000953,2025-07-01T11:00:00,HR,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE000954,2025-07-01T10:00:00,SupplyChain,EU,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE000955,2025-01-15T21:00:00,SupplyChain,EG,ad_copy,Customer data request processing guidance.,low
+CASE000956,2025-12-24T07:00:00,SupplyChain,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000957,2025-09-05T10:00:00,Marketing,EG,ingredient_change,Need response template for complaint.,low
+CASE000958,2025-10-26T18:00:00,SupplyChain,EU,complaint_response,Need response template for complaint.,low
+CASE000959,2025-04-19T08:00:00,SupplyChain,KSA,data_request,Need approval for a new claim on packaging.,high
+CASE000960,2025-05-05T18:00:00,HR,EG,data_request,Ingredient substitution due to supplier shortage.,low
+CASE000961,2025-10-31T03:00:00,Marketing,EU,complaint_response,Ad copy includes before/after images.,low
+CASE000962,2025-04-11T01:00:00,IT,EU,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000963,2025-11-26T16:00:00,Marketing,EU,label_change,Customer data request processing guidance.,high
+CASE000964,2025-07-28T00:00:00,SupplyChain,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE000965,2025-09-09T08:00:00,IT,KSA,data_request,Need approval for a new claim on packaging.,low
+CASE000966,2025-07-08T04:00:00,Marketing,EU,complaint_response,Customer data request processing guidance.,medium
+CASE000967,2025-05-31T12:00:00,Marketing,EG,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000968,2025-06-07T21:00:00,Sales,EU,data_request,Customer data request processing guidance.,high
+CASE000969,2025-03-23T07:00:00,Marketing,KSA,data_request,Ad copy includes before/after images.,high
+CASE000970,2025-10-20T20:00:00,Marketing,KSA,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000971,2025-09-19T06:00:00,Sales,KSA,complaint_response,Need approval for a new claim on packaging.,low
+CASE000972,2025-05-14T11:00:00,Sales,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE000973,2025-09-02T20:00:00,SupplyChain,EU,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE000974,2025-09-03T08:00:00,Marketing,KSA,label_change,Need response template for complaint.,medium
+CASE000975,2025-05-23T08:00:00,SupplyChain,UAE,data_request,Need approval for a new claim on packaging.,low
+CASE000976,2025-07-21T20:00:00,HR,EG,data_request,Ad copy includes before/after images.,medium
+CASE000977,2025-09-01T13:00:00,IT,UAE,complaint_response,Customer data request processing guidance.,low
+CASE000978,2025-11-20T13:00:00,IT,KSA,label_change,Need approval for a new claim on packaging.,medium
+CASE000979,2025-03-19T00:00:00,Sales,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE000980,2025-02-24T04:00:00,IT,KSA,ad_copy,Need response template for complaint.,medium
+CASE000981,2025-12-23T06:00:00,HR,KSA,ad_copy,Ad copy includes before/after images.,medium
+CASE000982,2025-04-27T00:00:00,Sales,UAE,data_request,Need response template for complaint.,medium
+CASE000983,2025-09-08T22:00:00,Sales,UAE,label_change,Customer data request processing guidance.,high
+CASE000984,2025-02-13T21:00:00,SupplyChain,KSA,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE000985,2025-04-28T06:00:00,HR,UAE,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE000986,2025-09-23T20:00:00,Marketing,UAE,label_change,Customer data request processing guidance.,low
+CASE000987,2025-02-02T23:00:00,Sales,EG,ad_copy,Customer data request processing guidance.,medium
+CASE000988,2025-12-08T19:00:00,Marketing,UAE,ingredient_change,Ad copy includes before/after images.,medium
+CASE000989,2025-01-14T20:00:00,HR,EU,data_request,Need approval for a new claim on packaging.,low
+CASE000990,2025-11-14T04:00:00,Marketing,UAE,complaint_response,Need response template for complaint.,high
+CASE000991,2025-07-03T21:00:00,Marketing,UAE,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE000992,2025-01-25T14:00:00,Sales,EG,ingredient_change,Need approval for a new claim on packaging.,high
+CASE000993,2025-09-19T23:00:00,IT,EG,complaint_response,Need approval for a new claim on packaging.,low
+CASE000994,2025-02-06T17:00:00,HR,EU,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE000995,2025-03-17T11:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,low
+CASE000996,2025-05-28T12:00:00,IT,EU,ingredient_change,Need response template for complaint.,medium
+CASE000997,2025-08-15T10:00:00,SupplyChain,UAE,data_request,Need approval for a new claim on packaging.,low
+CASE000998,2025-07-13T00:00:00,IT,EG,ingredient_change,Customer data request processing guidance.,high
+CASE000999,2025-07-07T06:00:00,IT,EU,ad_copy,Ad copy includes before/after images.,medium
+CASE001000,2025-04-19T16:00:00,IT,KSA,label_change,Customer data request processing guidance.,high
+CASE001001,2025-06-29T01:00:00,Sales,EG,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001002,2025-03-17T23:00:00,Sales,KSA,data_request,Need response template for complaint.,high
+CASE001003,2025-12-08T14:00:00,Marketing,EU,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE001004,2025-11-25T09:00:00,Marketing,EG,label_change,Ad copy includes before/after images.,medium
+CASE001005,2025-09-26T04:00:00,HR,EU,data_request,Customer data request processing guidance.,low
+CASE001006,2025-11-30T22:00:00,Marketing,UAE,data_request,Need approval for a new claim on packaging.,medium
+CASE001007,2025-05-20T08:00:00,SupplyChain,UAE,ingredient_change,Ad copy includes before/after images.,medium
+CASE001008,2025-07-20T07:00:00,IT,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001009,2025-12-09T21:00:00,SupplyChain,EU,data_request,Customer data request processing guidance.,medium
+CASE001010,2025-01-18T02:00:00,IT,KSA,label_change,Ingredient substitution due to supplier shortage.,low
+CASE001011,2025-02-07T11:00:00,Marketing,KSA,label_change,Need approval for a new claim on packaging.,medium
+CASE001012,2025-08-02T02:00:00,SupplyChain,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE001013,2025-07-05T05:00:00,IT,EG,label_change,Ad copy includes before/after images.,high
+CASE001014,2025-10-16T22:00:00,SupplyChain,KSA,ingredient_change,Need response template for complaint.,high
+CASE001015,2025-04-28T14:00:00,SupplyChain,UAE,label_change,Ingredient substitution due to supplier shortage.,low
+CASE001016,2025-05-29T04:00:00,SupplyChain,KSA,data_request,Need response template for complaint.,high
+CASE001017,2025-09-30T11:00:00,IT,UAE,complaint_response,Ad copy includes before/after images.,low
+CASE001018,2025-12-18T20:00:00,IT,EG,ad_copy,Customer data request processing guidance.,medium
+CASE001019,2025-06-10T21:00:00,Sales,KSA,data_request,Need response template for complaint.,high
+CASE001020,2025-08-07T02:00:00,Sales,EU,ingredient_change,Customer data request processing guidance.,high
+CASE001021,2025-06-28T18:00:00,IT,UAE,ingredient_change,Need response template for complaint.,medium
+CASE001022,2025-02-09T04:00:00,Marketing,UAE,data_request,Ingredient substitution due to supplier shortage.,low
+CASE001023,2025-11-06T15:00:00,IT,UAE,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001024,2025-11-03T04:00:00,IT,EU,complaint_response,Ad copy includes before/after images.,low
+CASE001025,2025-07-04T12:00:00,Marketing,EG,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001026,2025-01-24T16:00:00,Sales,KSA,complaint_response,Need response template for complaint.,low
+CASE001027,2025-12-11T10:00:00,HR,EU,data_request,Need response template for complaint.,medium
+CASE001028,2025-11-10T17:00:00,IT,KSA,ingredient_change,Customer data request processing guidance.,low
+CASE001029,2025-06-07T07:00:00,Sales,KSA,data_request,Need approval for a new claim on packaging.,low
+CASE001030,2025-12-19T18:00:00,HR,UAE,data_request,Need response template for complaint.,medium
+CASE001031,2025-07-12T09:00:00,SupplyChain,EG,label_change,Customer data request processing guidance.,high
+CASE001032,2025-07-24T23:00:00,Marketing,KSA,data_request,Ad copy includes before/after images.,medium
+CASE001033,2025-06-12T22:00:00,IT,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001034,2025-01-25T10:00:00,IT,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001035,2025-02-22T00:00:00,Sales,EU,ingredient_change,Need response template for complaint.,medium
+CASE001036,2025-10-08T04:00:00,HR,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE001037,2025-08-06T13:00:00,SupplyChain,EU,ad_copy,Ad copy includes before/after images.,medium
+CASE001038,2025-09-23T08:00:00,IT,KSA,data_request,Need approval for a new claim on packaging.,low
+CASE001039,2025-04-14T12:00:00,Marketing,EU,label_change,Need response template for complaint.,high
+CASE001040,2025-03-24T01:00:00,Marketing,KSA,data_request,Ad copy includes before/after images.,high
+CASE001041,2025-09-01T10:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE001042,2025-08-20T12:00:00,Sales,UAE,data_request,Need approval for a new claim on packaging.,low
+CASE001043,2025-05-19T03:00:00,Sales,KSA,label_change,Need response template for complaint.,low
+CASE001044,2025-01-28T21:00:00,Sales,UAE,data_request,Ingredient substitution due to supplier shortage.,low
+CASE001045,2025-12-08T00:00:00,Marketing,EG,complaint_response,Need response template for complaint.,low
+CASE001046,2025-03-22T22:00:00,Sales,KSA,complaint_response,Customer data request processing guidance.,low
+CASE001047,2025-07-29T01:00:00,SupplyChain,UAE,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001048,2025-04-28T23:00:00,HR,UAE,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001049,2025-06-19T20:00:00,IT,UAE,label_change,Need response template for complaint.,low
+CASE001050,2025-04-11T12:00:00,SupplyChain,UAE,data_request,Ad copy includes before/after images.,medium
+CASE001051,2025-07-26T04:00:00,Sales,KSA,label_change,Customer data request processing guidance.,low
+CASE001052,2025-06-26T08:00:00,SupplyChain,KSA,complaint_response,Need response template for complaint.,medium
+CASE001053,2025-01-19T15:00:00,IT,UAE,label_change,Ad copy includes before/after images.,high
+CASE001054,2025-05-05T12:00:00,Marketing,EG,complaint_response,Need response template for complaint.,low
+CASE001055,2025-01-18T12:00:00,IT,UAE,data_request,Customer data request processing guidance.,high
+CASE001056,2025-01-27T14:00:00,HR,KSA,data_request,Need response template for complaint.,low
+CASE001057,2025-01-27T08:00:00,SupplyChain,UAE,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001058,2025-09-29T08:00:00,HR,EG,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE001059,2025-10-14T23:00:00,Marketing,EG,complaint_response,Ad copy includes before/after images.,high
+CASE001060,2025-12-21T21:00:00,IT,EG,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE001061,2025-11-09T02:00:00,Marketing,EU,complaint_response,Need approval for a new claim on packaging.,low
+CASE001062,2025-05-25T18:00:00,SupplyChain,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE001063,2025-05-10T23:00:00,Sales,KSA,label_change,Need response template for complaint.,low
+CASE001064,2025-07-25T00:00:00,Marketing,EG,data_request,Need approval for a new claim on packaging.,low
+CASE001065,2025-02-27T22:00:00,HR,KSA,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE001066,2025-01-20T01:00:00,HR,EG,ad_copy,Customer data request processing guidance.,low
+CASE001067,2025-10-20T06:00:00,IT,EU,complaint_response,Customer data request processing guidance.,high
+CASE001068,2025-12-10T23:00:00,SupplyChain,EU,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001069,2025-06-19T07:00:00,Marketing,KSA,data_request,Customer data request processing guidance.,low
+CASE001070,2025-01-12T08:00:00,HR,KSA,data_request,Need approval for a new claim on packaging.,high
+CASE001071,2025-12-18T03:00:00,Sales,KSA,data_request,Ad copy includes before/after images.,high
+CASE001072,2025-01-10T05:00:00,IT,UAE,label_change,Customer data request processing guidance.,low
+CASE001073,2025-01-16T01:00:00,SupplyChain,KSA,complaint_response,Need approval for a new claim on packaging.,high
+CASE001074,2025-12-09T18:00:00,SupplyChain,EU,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001075,2025-12-06T07:00:00,SupplyChain,EU,label_change,Need response template for complaint.,medium
+CASE001076,2025-05-15T21:00:00,SupplyChain,EU,complaint_response,Ad copy includes before/after images.,medium
+CASE001077,2025-01-09T20:00:00,Marketing,KSA,data_request,Ad copy includes before/after images.,medium
+CASE001078,2025-12-15T16:00:00,HR,EG,complaint_response,Need response template for complaint.,medium
+CASE001079,2025-05-02T20:00:00,Marketing,EU,ingredient_change,Need response template for complaint.,high
+CASE001080,2025-06-23T13:00:00,SupplyChain,EG,ad_copy,Need response template for complaint.,low
+CASE001081,2025-07-10T03:00:00,HR,EU,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001082,2025-09-02T14:00:00,IT,EU,ingredient_change,Need approval for a new claim on packaging.,high
+CASE001083,2025-10-04T18:00:00,Marketing,EG,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001084,2025-10-31T23:00:00,SupplyChain,EU,ad_copy,Customer data request processing guidance.,high
+CASE001085,2025-06-23T20:00:00,IT,KSA,label_change,Need response template for complaint.,low
+CASE001086,2025-07-03T02:00:00,HR,UAE,complaint_response,Need approval for a new claim on packaging.,low
+CASE001087,2025-01-18T08:00:00,Sales,UAE,label_change,Need approval for a new claim on packaging.,low
+CASE001088,2025-04-06T18:00:00,HR,EU,data_request,Customer data request processing guidance.,high
+CASE001089,2025-02-10T23:00:00,HR,EG,data_request,Ad copy includes before/after images.,medium
+CASE001090,2025-11-05T05:00:00,SupplyChain,EU,complaint_response,Need approval for a new claim on packaging.,low
+CASE001091,2025-04-27T15:00:00,HR,KSA,label_change,Ad copy includes before/after images.,low
+CASE001092,2025-07-05T10:00:00,Marketing,KSA,data_request,Need approval for a new claim on packaging.,medium
+CASE001093,2025-07-08T09:00:00,Sales,EU,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001094,2025-12-22T23:00:00,SupplyChain,KSA,label_change,Need response template for complaint.,low
+CASE001095,2025-07-02T15:00:00,SupplyChain,EU,data_request,Ad copy includes before/after images.,low
+CASE001096,2025-05-24T14:00:00,HR,EG,data_request,Ingredient substitution due to supplier shortage.,low
+CASE001097,2025-05-07T13:00:00,HR,EU,label_change,Need approval for a new claim on packaging.,low
+CASE001098,2025-08-30T23:00:00,HR,EU,data_request,Need response template for complaint.,low
+CASE001099,2025-05-16T08:00:00,Sales,EU,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE001100,2025-02-17T19:00:00,Marketing,EG,complaint_response,Need response template for complaint.,medium
+CASE001101,2025-06-03T13:00:00,HR,EU,data_request,Need approval for a new claim on packaging.,high
+CASE001102,2025-12-12T21:00:00,IT,EG,data_request,Need approval for a new claim on packaging.,low
+CASE001103,2025-12-10T22:00:00,HR,UAE,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001104,2025-05-18T04:00:00,HR,UAE,ad_copy,Need approval for a new claim on packaging.,low
+CASE001105,2025-04-14T21:00:00,IT,KSA,label_change,Customer data request processing guidance.,high
+CASE001106,2025-05-24T03:00:00,Sales,UAE,complaint_response,Need response template for complaint.,high
+CASE001107,2025-02-14T05:00:00,Sales,EG,label_change,Need approval for a new claim on packaging.,low
+CASE001108,2025-11-05T12:00:00,Sales,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE001109,2025-10-25T06:00:00,HR,KSA,label_change,Customer data request processing guidance.,medium
+CASE001110,2025-02-17T22:00:00,Sales,EG,ingredient_change,Need response template for complaint.,medium
+CASE001111,2025-12-03T00:00:00,HR,UAE,ad_copy,Ad copy includes before/after images.,medium
+CASE001112,2025-02-17T13:00:00,HR,UAE,label_change,Customer data request processing guidance.,low
+CASE001113,2025-12-20T00:00:00,Marketing,EG,ingredient_change,Customer data request processing guidance.,high
+CASE001114,2025-09-06T05:00:00,IT,UAE,label_change,Need response template for complaint.,high
+CASE001115,2025-08-05T20:00:00,HR,KSA,complaint_response,Customer data request processing guidance.,medium
+CASE001116,2025-08-29T19:00:00,Marketing,EU,ingredient_change,Need response template for complaint.,medium
+CASE001117,2025-07-06T15:00:00,Sales,KSA,data_request,Customer data request processing guidance.,low
+CASE001118,2025-01-28T04:00:00,Marketing,UAE,ingredient_change,Need response template for complaint.,medium
+CASE001119,2025-03-09T14:00:00,Marketing,KSA,data_request,Need response template for complaint.,low
+CASE001120,2025-11-12T05:00:00,SupplyChain,UAE,label_change,Ad copy includes before/after images.,high
+CASE001121,2025-04-01T19:00:00,IT,EG,complaint_response,Need approval for a new claim on packaging.,medium
+CASE001122,2025-09-16T14:00:00,SupplyChain,KSA,ad_copy,Need response template for complaint.,medium
+CASE001123,2025-12-23T21:00:00,IT,KSA,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE001124,2025-01-29T12:00:00,SupplyChain,EU,complaint_response,Ad copy includes before/after images.,medium
+CASE001125,2025-05-14T13:00:00,Sales,EU,label_change,Ad copy includes before/after images.,low
+CASE001126,2025-05-07T07:00:00,SupplyChain,EU,label_change,Need approval for a new claim on packaging.,high
+CASE001127,2025-06-23T03:00:00,SupplyChain,EU,label_change,Customer data request processing guidance.,medium
+CASE001128,2025-05-20T20:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,high
+CASE001129,2025-10-03T04:00:00,HR,EG,ad_copy,Need response template for complaint.,low
+CASE001130,2025-02-01T08:00:00,SupplyChain,UAE,ad_copy,Ad copy includes before/after images.,medium
+CASE001131,2025-02-20T15:00:00,Marketing,UAE,label_change,Need response template for complaint.,high
+CASE001132,2025-10-25T06:00:00,SupplyChain,KSA,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE001133,2025-10-14T02:00:00,HR,UAE,data_request,Customer data request processing guidance.,high
+CASE001134,2025-06-28T09:00:00,HR,UAE,label_change,Need response template for complaint.,high
+CASE001135,2025-04-29T22:00:00,IT,EU,complaint_response,Need response template for complaint.,low
+CASE001136,2025-06-29T11:00:00,Marketing,EU,label_change,Ad copy includes before/after images.,medium
+CASE001137,2025-11-08T20:00:00,Sales,EG,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001138,2025-10-08T06:00:00,HR,UAE,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE001139,2025-06-15T19:00:00,Marketing,UAE,complaint_response,Need response template for complaint.,high
+CASE001140,2025-12-24T19:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001141,2025-04-08T01:00:00,SupplyChain,KSA,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE001142,2025-01-16T15:00:00,IT,EU,complaint_response,Ad copy includes before/after images.,low
+CASE001143,2025-01-17T22:00:00,HR,KSA,data_request,Ad copy includes before/after images.,low
+CASE001144,2025-12-21T12:00:00,Sales,EU,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001145,2025-11-23T23:00:00,Sales,EG,data_request,Need response template for complaint.,high
+CASE001146,2025-07-22T03:00:00,SupplyChain,EU,label_change,Customer data request processing guidance.,low
+CASE001147,2025-01-18T07:00:00,IT,EG,label_change,Need response template for complaint.,medium
+CASE001148,2025-10-12T19:00:00,Sales,UAE,data_request,Need response template for complaint.,high
+CASE001149,2025-09-22T18:00:00,SupplyChain,KSA,ad_copy,Customer data request processing guidance.,low
+CASE001150,2025-12-01T02:00:00,IT,EG,ingredient_change,Ad copy includes before/after images.,low
+CASE001151,2025-08-22T22:00:00,Sales,UAE,ad_copy,Need response template for complaint.,medium
+CASE001152,2025-12-04T23:00:00,SupplyChain,EU,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001153,2025-03-19T11:00:00,Marketing,KSA,label_change,Ingredient substitution due to supplier shortage.,low
+CASE001154,2025-08-29T05:00:00,Marketing,EU,complaint_response,Ad copy includes before/after images.,medium
+CASE001155,2025-01-13T12:00:00,Sales,EU,data_request,Ad copy includes before/after images.,low
+CASE001156,2025-08-08T19:00:00,Marketing,KSA,label_change,Ad copy includes before/after images.,high
+CASE001157,2025-12-23T00:00:00,IT,EU,label_change,Need approval for a new claim on packaging.,high
+CASE001158,2025-12-04T01:00:00,HR,EG,label_change,Need approval for a new claim on packaging.,medium
+CASE001159,2025-12-03T05:00:00,SupplyChain,EG,data_request,Ingredient substitution due to supplier shortage.,low
+CASE001160,2025-09-13T11:00:00,IT,KSA,data_request,Need response template for complaint.,medium
+CASE001161,2025-03-26T21:00:00,Marketing,UAE,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001162,2025-08-07T23:00:00,HR,UAE,label_change,Need response template for complaint.,low
+CASE001163,2025-09-14T00:00:00,Marketing,EG,complaint_response,Customer data request processing guidance.,high
+CASE001164,2025-08-19T12:00:00,SupplyChain,EU,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001165,2025-07-22T01:00:00,IT,KSA,ingredient_change,Need approval for a new claim on packaging.,high
+CASE001166,2025-06-17T07:00:00,HR,KSA,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001167,2025-04-29T05:00:00,Marketing,EU,ad_copy,Customer data request processing guidance.,low
+CASE001168,2025-08-09T01:00:00,SupplyChain,EU,complaint_response,Customer data request processing guidance.,high
+CASE001169,2025-06-28T04:00:00,HR,EG,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE001170,2025-04-02T05:00:00,SupplyChain,UAE,label_change,Need approval for a new claim on packaging.,high
+CASE001171,2025-07-07T14:00:00,SupplyChain,UAE,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001172,2025-01-18T19:00:00,Sales,EU,complaint_response,Need response template for complaint.,low
+CASE001173,2025-11-26T12:00:00,Marketing,EU,data_request,Need response template for complaint.,low
+CASE001174,2025-10-30T19:00:00,Marketing,EU,data_request,Need response template for complaint.,low
+CASE001175,2025-04-02T23:00:00,HR,EG,label_change,Need response template for complaint.,low
+CASE001176,2025-12-20T15:00:00,Sales,UAE,ingredient_change,Need response template for complaint.,medium
+CASE001177,2025-03-29T13:00:00,SupplyChain,KSA,data_request,Customer data request processing guidance.,high
+CASE001178,2025-02-20T01:00:00,IT,EU,ad_copy,Need approval for a new claim on packaging.,low
+CASE001179,2025-09-12T15:00:00,Marketing,KSA,complaint_response,Need approval for a new claim on packaging.,low
+CASE001180,2025-01-07T08:00:00,Marketing,EG,ingredient_change,Ad copy includes before/after images.,low
+CASE001181,2025-08-29T02:00:00,Marketing,EU,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001182,2025-04-18T17:00:00,HR,KSA,ingredient_change,Customer data request processing guidance.,low
+CASE001183,2025-06-06T07:00:00,SupplyChain,EG,ad_copy,Customer data request processing guidance.,low
+CASE001184,2025-03-14T00:00:00,HR,EU,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE001185,2025-11-24T20:00:00,SupplyChain,EG,label_change,Ingredient substitution due to supplier shortage.,low
+CASE001186,2025-11-21T11:00:00,HR,KSA,data_request,Need response template for complaint.,medium
+CASE001187,2025-08-14T09:00:00,IT,UAE,data_request,Customer data request processing guidance.,medium
+CASE001188,2025-03-28T07:00:00,IT,EU,ingredient_change,Customer data request processing guidance.,low
+CASE001189,2025-03-07T14:00:00,Sales,KSA,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE001190,2025-12-10T01:00:00,SupplyChain,KSA,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE001191,2025-01-13T14:00:00,HR,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE001192,2025-03-01T04:00:00,IT,KSA,data_request,Need response template for complaint.,medium
+CASE001193,2025-01-03T22:00:00,SupplyChain,UAE,complaint_response,Ad copy includes before/after images.,medium
+CASE001194,2025-09-21T07:00:00,IT,KSA,label_change,Need response template for complaint.,medium
+CASE001195,2025-11-04T10:00:00,Marketing,EG,label_change,Customer data request processing guidance.,low
+CASE001196,2025-09-15T15:00:00,Marketing,UAE,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE001197,2025-12-17T03:00:00,HR,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE001198,2025-05-21T17:00:00,SupplyChain,EG,data_request,Ad copy includes before/after images.,medium
+CASE001199,2025-06-02T06:00:00,Sales,EU,data_request,Customer data request processing guidance.,high
+CASE001200,2025-02-18T00:00:00,SupplyChain,KSA,data_request,Ad copy includes before/after images.,medium
+CASE001201,2025-08-06T06:00:00,Sales,EU,label_change,Need response template for complaint.,low
+CASE001202,2025-09-10T17:00:00,Sales,EG,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001203,2025-02-17T20:00:00,HR,KSA,label_change,Need response template for complaint.,medium
+CASE001204,2025-07-28T19:00:00,Sales,EG,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001205,2025-09-01T18:00:00,IT,KSA,complaint_response,Need approval for a new claim on packaging.,high
+CASE001206,2025-04-01T12:00:00,SupplyChain,EU,ad_copy,Need response template for complaint.,low
+CASE001207,2025-12-23T19:00:00,Marketing,UAE,label_change,Ad copy includes before/after images.,low
+CASE001208,2025-12-12T21:00:00,SupplyChain,EG,label_change,Need approval for a new claim on packaging.,medium
+CASE001209,2025-10-13T21:00:00,Marketing,UAE,label_change,Need approval for a new claim on packaging.,high
+CASE001210,2025-01-06T03:00:00,Sales,EG,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001211,2025-07-06T09:00:00,HR,UAE,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001212,2025-08-08T12:00:00,Sales,EU,ingredient_change,Ad copy includes before/after images.,medium
+CASE001213,2025-11-10T01:00:00,Marketing,UAE,data_request,Ad copy includes before/after images.,low
+CASE001214,2025-03-02T00:00:00,HR,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE001215,2025-09-22T11:00:00,Marketing,EU,data_request,Customer data request processing guidance.,high
+CASE001216,2025-05-21T14:00:00,HR,EG,complaint_response,Need response template for complaint.,medium
+CASE001217,2025-03-21T14:00:00,SupplyChain,EG,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001218,2025-10-19T20:00:00,Sales,EG,complaint_response,Ad copy includes before/after images.,medium
+CASE001219,2025-11-02T06:00:00,Sales,EU,label_change,Need approval for a new claim on packaging.,medium
+CASE001220,2025-09-28T13:00:00,IT,UAE,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001221,2025-04-13T22:00:00,IT,UAE,complaint_response,Need response template for complaint.,low
+CASE001222,2025-01-16T20:00:00,Marketing,KSA,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE001223,2025-01-14T14:00:00,Sales,KSA,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001224,2025-12-06T02:00:00,IT,UAE,ingredient_change,Need response template for complaint.,high
+CASE001225,2025-11-21T12:00:00,SupplyChain,KSA,ad_copy,Need response template for complaint.,medium
+CASE001226,2025-02-19T17:00:00,SupplyChain,KSA,label_change,Customer data request processing guidance.,high
+CASE001227,2025-03-04T06:00:00,Marketing,UAE,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001228,2025-11-03T12:00:00,Marketing,EG,data_request,Need response template for complaint.,high
+CASE001229,2025-01-08T13:00:00,SupplyChain,EU,ingredient_change,Customer data request processing guidance.,high
+CASE001230,2025-09-06T01:00:00,HR,UAE,ingredient_change,Customer data request processing guidance.,medium
+CASE001231,2025-05-24T18:00:00,HR,EU,ingredient_change,Need approval for a new claim on packaging.,high
+CASE001232,2025-03-23T04:00:00,IT,EU,complaint_response,Ad copy includes before/after images.,low
+CASE001233,2025-07-29T12:00:00,HR,KSA,data_request,Ad copy includes before/after images.,high
+CASE001234,2025-09-27T06:00:00,Sales,KSA,data_request,Need response template for complaint.,low
+CASE001235,2025-04-20T09:00:00,Marketing,UAE,ingredient_change,Need response template for complaint.,high
+CASE001236,2025-08-12T10:00:00,HR,KSA,ad_copy,Need response template for complaint.,high
+CASE001237,2025-09-19T06:00:00,Sales,EG,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001238,2025-05-03T23:00:00,Sales,KSA,complaint_response,Customer data request processing guidance.,high
+CASE001239,2025-02-12T01:00:00,HR,EG,label_change,Ad copy includes before/after images.,low
+CASE001240,2025-08-21T13:00:00,IT,EG,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001241,2025-02-23T06:00:00,HR,KSA,complaint_response,Ad copy includes before/after images.,low
+CASE001242,2025-11-05T16:00:00,Sales,EU,ad_copy,Customer data request processing guidance.,high
+CASE001243,2025-06-11T00:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,high
+CASE001244,2025-12-04T01:00:00,Sales,KSA,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001245,2025-12-20T18:00:00,SupplyChain,UAE,label_change,Need approval for a new claim on packaging.,medium
+CASE001246,2025-07-28T18:00:00,Sales,EU,ingredient_change,Ad copy includes before/after images.,high
+CASE001247,2025-04-20T15:00:00,HR,EU,complaint_response,Need response template for complaint.,low
+CASE001248,2025-10-11T08:00:00,IT,KSA,data_request,Need approval for a new claim on packaging.,medium
+CASE001249,2025-10-28T06:00:00,Marketing,EU,ad_copy,Need response template for complaint.,medium
+CASE001250,2025-11-12T13:00:00,Marketing,EG,data_request,Ad copy includes before/after images.,high
+CASE001251,2025-05-08T05:00:00,IT,UAE,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001252,2025-10-20T03:00:00,SupplyChain,UAE,label_change,Need approval for a new claim on packaging.,high
+CASE001253,2025-10-31T17:00:00,SupplyChain,EU,data_request,Ad copy includes before/after images.,high
+CASE001254,2025-02-10T16:00:00,Marketing,EU,ad_copy,Need response template for complaint.,low
+CASE001255,2025-12-08T05:00:00,SupplyChain,EU,ad_copy,Ad copy includes before/after images.,high
+CASE001256,2025-05-18T21:00:00,IT,KSA,data_request,Customer data request processing guidance.,low
+CASE001257,2025-05-14T23:00:00,HR,EG,ingredient_change,Customer data request processing guidance.,low
+CASE001258,2025-07-24T12:00:00,Sales,KSA,data_request,Ad copy includes before/after images.,medium
+CASE001259,2025-01-23T09:00:00,IT,KSA,data_request,Need response template for complaint.,high
+CASE001260,2025-07-25T10:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,high
+CASE001261,2025-02-24T08:00:00,HR,KSA,data_request,Ad copy includes before/after images.,high
+CASE001262,2025-05-05T12:00:00,Sales,EG,data_request,Ad copy includes before/after images.,medium
+CASE001263,2025-01-29T03:00:00,IT,EG,complaint_response,Need response template for complaint.,medium
+CASE001264,2025-09-04T11:00:00,IT,KSA,data_request,Customer data request processing guidance.,high
+CASE001265,2025-05-26T12:00:00,SupplyChain,KSA,data_request,Need response template for complaint.,low
+CASE001266,2025-04-03T17:00:00,Sales,EU,ad_copy,Need response template for complaint.,low
+CASE001267,2025-01-31T06:00:00,IT,KSA,ingredient_change,Need response template for complaint.,high
+CASE001268,2025-03-29T12:00:00,IT,EU,ad_copy,Customer data request processing guidance.,high
+CASE001269,2025-08-04T12:00:00,IT,EU,ad_copy,Customer data request processing guidance.,high
+CASE001270,2025-06-27T05:00:00,SupplyChain,EU,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001271,2025-04-25T19:00:00,SupplyChain,EG,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001272,2025-11-05T01:00:00,HR,EG,complaint_response,Ad copy includes before/after images.,medium
+CASE001273,2025-05-20T15:00:00,Marketing,KSA,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001274,2025-12-19T16:00:00,Sales,EU,ad_copy,Need response template for complaint.,low
+CASE001275,2025-07-11T05:00:00,IT,UAE,complaint_response,Need approval for a new claim on packaging.,medium
+CASE001276,2025-11-16T00:00:00,IT,UAE,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001277,2025-12-11T20:00:00,Marketing,EG,ad_copy,Ad copy includes before/after images.,medium
+CASE001278,2025-05-31T18:00:00,HR,UAE,ingredient_change,Ad copy includes before/after images.,high
+CASE001279,2025-05-03T07:00:00,HR,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001280,2025-12-01T00:00:00,IT,EU,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001281,2025-07-03T10:00:00,Marketing,KSA,ingredient_change,Customer data request processing guidance.,high
+CASE001282,2025-04-15T15:00:00,IT,KSA,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001283,2025-04-22T13:00:00,IT,EG,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE001284,2025-09-08T22:00:00,SupplyChain,EU,data_request,Need response template for complaint.,low
+CASE001285,2025-06-20T20:00:00,IT,EG,complaint_response,Need approval for a new claim on packaging.,low
+CASE001286,2025-09-21T19:00:00,SupplyChain,EG,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE001287,2025-07-25T11:00:00,SupplyChain,EG,data_request,Customer data request processing guidance.,medium
+CASE001288,2025-05-06T02:00:00,IT,EU,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE001289,2025-03-13T06:00:00,SupplyChain,UAE,label_change,Need response template for complaint.,medium
+CASE001290,2025-02-04T02:00:00,Sales,EG,ad_copy,Ad copy includes before/after images.,high
+CASE001291,2025-09-05T07:00:00,Marketing,UAE,complaint_response,Need response template for complaint.,low
+CASE001292,2025-09-14T00:00:00,IT,UAE,data_request,Customer data request processing guidance.,high
+CASE001293,2025-06-13T13:00:00,Sales,UAE,ad_copy,Ad copy includes before/after images.,low
+CASE001294,2025-03-01T09:00:00,IT,EG,data_request,Need approval for a new claim on packaging.,high
+CASE001295,2025-10-30T08:00:00,HR,EG,ingredient_change,Customer data request processing guidance.,low
+CASE001296,2025-03-03T21:00:00,Sales,KSA,complaint_response,Customer data request processing guidance.,medium
+CASE001297,2025-06-22T04:00:00,SupplyChain,KSA,complaint_response,Ingredient substitution due to supplier shortage.,low
+CASE001298,2025-04-17T10:00:00,Sales,KSA,label_change,Customer data request processing guidance.,high
+CASE001299,2025-09-16T14:00:00,Sales,EU,ad_copy,Need approval for a new claim on packaging.,high
+CASE001300,2025-05-06T04:00:00,Sales,EU,ad_copy,Need approval for a new claim on packaging.,high
+CASE001301,2025-04-20T12:00:00,Marketing,UAE,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001302,2025-01-23T13:00:00,SupplyChain,UAE,complaint_response,Customer data request processing guidance.,low
+CASE001303,2025-12-16T06:00:00,HR,EU,data_request,Need response template for complaint.,medium
+CASE001304,2025-06-04T09:00:00,SupplyChain,EU,data_request,Customer data request processing guidance.,high
+CASE001305,2025-04-20T09:00:00,Sales,EG,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001306,2025-03-13T07:00:00,SupplyChain,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001307,2025-09-15T13:00:00,HR,EU,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE001308,2025-10-22T04:00:00,HR,KSA,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001309,2025-01-30T06:00:00,HR,EU,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001310,2025-04-07T11:00:00,Sales,EU,label_change,Ad copy includes before/after images.,high
+CASE001311,2025-02-04T10:00:00,Marketing,EG,data_request,Ad copy includes before/after images.,low
+CASE001312,2025-03-03T07:00:00,SupplyChain,EU,data_request,Need approval for a new claim on packaging.,medium
+CASE001313,2025-02-27T09:00:00,HR,EU,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001314,2025-07-12T18:00:00,Sales,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE001315,2025-10-16T13:00:00,IT,KSA,complaint_response,Need response template for complaint.,low
+CASE001316,2025-09-04T04:00:00,Marketing,UAE,ad_copy,Customer data request processing guidance.,low
+CASE001317,2025-03-09T14:00:00,SupplyChain,EG,label_change,Customer data request processing guidance.,high
+CASE001318,2025-09-08T21:00:00,HR,KSA,ad_copy,Need response template for complaint.,low
+CASE001319,2025-05-03T13:00:00,HR,UAE,ingredient_change,Need response template for complaint.,low
+CASE001320,2025-04-27T19:00:00,IT,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE001321,2025-10-30T08:00:00,Marketing,UAE,complaint_response,Need response template for complaint.,low
+CASE001322,2025-02-16T15:00:00,Marketing,KSA,complaint_response,Ad copy includes before/after images.,high
+CASE001323,2025-01-19T09:00:00,HR,EU,ad_copy,Need response template for complaint.,medium
+CASE001324,2025-08-26T08:00:00,SupplyChain,UAE,data_request,Customer data request processing guidance.,low
+CASE001325,2025-02-12T03:00:00,IT,EU,ad_copy,Need approval for a new claim on packaging.,low
+CASE001326,2025-11-30T16:00:00,SupplyChain,KSA,ingredient_change,Ad copy includes before/after images.,high
+CASE001327,2025-01-07T10:00:00,HR,UAE,data_request,Need response template for complaint.,low
+CASE001328,2025-02-12T02:00:00,Sales,UAE,ingredient_change,Need response template for complaint.,medium
+CASE001329,2025-06-30T15:00:00,SupplyChain,EU,ad_copy,Need approval for a new claim on packaging.,high
+CASE001330,2025-09-28T23:00:00,Marketing,UAE,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001331,2025-06-12T01:00:00,IT,UAE,label_change,Customer data request processing guidance.,medium
+CASE001332,2025-01-10T23:00:00,Sales,EG,ingredient_change,Need approval for a new claim on packaging.,high
+CASE001333,2025-07-12T11:00:00,SupplyChain,EG,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001334,2025-04-13T13:00:00,Marketing,EG,data_request,Customer data request processing guidance.,medium
+CASE001335,2025-06-08T14:00:00,Marketing,KSA,ingredient_change,Need response template for complaint.,medium
+CASE001336,2025-08-16T22:00:00,Sales,EU,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001337,2025-11-06T12:00:00,IT,UAE,data_request,Need approval for a new claim on packaging.,high
+CASE001338,2025-09-24T02:00:00,Marketing,EG,label_change,Ad copy includes before/after images.,high
+CASE001339,2025-01-03T00:00:00,Marketing,EG,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001340,2025-09-18T23:00:00,SupplyChain,EU,complaint_response,Need approval for a new claim on packaging.,medium
+CASE001341,2025-03-04T08:00:00,Sales,EU,complaint_response,Ad copy includes before/after images.,low
+CASE001342,2025-01-14T21:00:00,IT,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001343,2025-07-01T10:00:00,SupplyChain,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE001344,2025-10-23T20:00:00,SupplyChain,UAE,ad_copy,Need approval for a new claim on packaging.,high
+CASE001345,2025-02-18T08:00:00,Sales,KSA,label_change,Need approval for a new claim on packaging.,low
+CASE001346,2025-10-29T09:00:00,HR,EG,data_request,Ingredient substitution due to supplier shortage.,high
+CASE001347,2025-03-01T07:00:00,Marketing,UAE,ingredient_change,Ad copy includes before/after images.,high
+CASE001348,2025-10-20T00:00:00,Sales,EG,label_change,Customer data request processing guidance.,low
+CASE001349,2025-04-11T22:00:00,HR,UAE,data_request,Ad copy includes before/after images.,low
+CASE001350,2025-02-11T18:00:00,Marketing,UAE,ingredient_change,Need response template for complaint.,low
+CASE001351,2025-03-23T17:00:00,Marketing,UAE,label_change,Need approval for a new claim on packaging.,low
+CASE001352,2025-06-23T20:00:00,Marketing,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE001353,2025-06-17T09:00:00,Sales,EU,ingredient_change,Ad copy includes before/after images.,low
+CASE001354,2025-07-24T15:00:00,Sales,KSA,label_change,Need response template for complaint.,high
+CASE001355,2025-08-26T17:00:00,IT,EG,complaint_response,Need response template for complaint.,medium
+CASE001356,2025-02-10T03:00:00,IT,EU,ad_copy,Need approval for a new claim on packaging.,high
+CASE001357,2025-08-14T17:00:00,IT,EU,ad_copy,Customer data request processing guidance.,medium
+CASE001358,2025-07-02T09:00:00,SupplyChain,EG,data_request,Customer data request processing guidance.,high
+CASE001359,2025-02-16T02:00:00,Sales,EG,ingredient_change,Need response template for complaint.,low
+CASE001360,2025-07-16T07:00:00,HR,UAE,ingredient_change,Ad copy includes before/after images.,low
+CASE001361,2025-05-31T17:00:00,HR,UAE,ad_copy,Need response template for complaint.,medium
+CASE001362,2025-04-03T19:00:00,IT,KSA,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE001363,2025-06-26T23:00:00,HR,KSA,label_change,Need approval for a new claim on packaging.,low
+CASE001364,2025-02-17T08:00:00,HR,UAE,complaint_response,Customer data request processing guidance.,high
+CASE001365,2025-06-30T01:00:00,HR,EU,complaint_response,Need response template for complaint.,high
+CASE001366,2025-11-20T00:00:00,HR,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,high
+CASE001367,2025-04-16T03:00:00,Marketing,UAE,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001368,2025-04-01T06:00:00,SupplyChain,KSA,data_request,Ad copy includes before/after images.,medium
+CASE001369,2025-06-12T15:00:00,HR,KSA,ingredient_change,Ad copy includes before/after images.,low
+CASE001370,2025-10-04T08:00:00,HR,KSA,label_change,Customer data request processing guidance.,medium
+CASE001371,2025-03-19T14:00:00,HR,EG,ingredient_change,Need approval for a new claim on packaging.,high
+CASE001372,2025-08-26T02:00:00,Sales,UAE,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001373,2025-08-01T19:00:00,SupplyChain,UAE,label_change,Ingredient substitution due to supplier shortage.,medium
+CASE001374,2025-03-09T13:00:00,Sales,EU,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE001375,2025-06-05T11:00:00,HR,EG,ad_copy,Ingredient substitution due to supplier shortage.,medium
+CASE001376,2025-04-29T21:00:00,HR,EU,ad_copy,Customer data request processing guidance.,high
+CASE001377,2025-07-17T01:00:00,HR,EU,label_change,Need response template for complaint.,high
+CASE001378,2025-06-21T01:00:00,IT,EU,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001379,2025-01-26T00:00:00,Sales,UAE,ingredient_change,Need approval for a new claim on packaging.,high
+CASE001380,2025-07-20T13:00:00,HR,KSA,complaint_response,Ingredient substitution due to supplier shortage.,high
+CASE001381,2025-03-25T14:00:00,HR,UAE,ingredient_change,Ad copy includes before/after images.,low
+CASE001382,2025-01-12T11:00:00,HR,KSA,complaint_response,Need approval for a new claim on packaging.,low
+CASE001383,2025-06-08T14:00:00,HR,EG,complaint_response,Need response template for complaint.,high
+CASE001384,2025-05-21T16:00:00,SupplyChain,EG,data_request,Ingredient substitution due to supplier shortage.,medium
+CASE001385,2025-04-30T19:00:00,Sales,EG,complaint_response,Customer data request processing guidance.,medium
+CASE001386,2025-03-30T16:00:00,Marketing,EU,ad_copy,Customer data request processing guidance.,medium
+CASE001387,2025-04-14T03:00:00,HR,EG,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001388,2025-12-02T04:00:00,SupplyChain,KSA,ad_copy,Ad copy includes before/after images.,medium
+CASE001389,2025-03-01T09:00:00,Sales,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE001390,2025-12-30T04:00:00,IT,EG,data_request,Need approval for a new claim on packaging.,high
+CASE001391,2025-06-15T16:00:00,IT,EG,ad_copy,Ad copy includes before/after images.,medium
+CASE001392,2025-02-02T18:00:00,HR,EU,ingredient_change,Need response template for complaint.,high
+CASE001393,2025-05-07T07:00:00,Sales,UAE,ad_copy,Need response template for complaint.,low
+CASE001394,2025-03-19T03:00:00,IT,EG,data_request,Customer data request processing guidance.,medium
+CASE001395,2025-12-06T02:00:00,HR,EG,complaint_response,Ad copy includes before/after images.,low
+CASE001396,2025-10-22T09:00:00,Marketing,UAE,ingredient_change,Customer data request processing guidance.,medium
+CASE001397,2025-09-29T07:00:00,HR,KSA,ad_copy,Need response template for complaint.,high
+CASE001398,2025-12-22T07:00:00,HR,UAE,complaint_response,Customer data request processing guidance.,medium
+CASE001399,2025-09-25T20:00:00,IT,EG,data_request,Ad copy includes before/after images.,high
+CASE001400,2025-05-12T15:00:00,IT,KSA,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001401,2025-02-24T15:00:00,Marketing,KSA,data_request,Need response template for complaint.,low
+CASE001402,2025-07-15T02:00:00,Marketing,EU,data_request,Ingredient substitution due to supplier shortage.,high
+CASE001403,2025-03-16T11:00:00,Marketing,EG,ingredient_change,Ad copy includes before/after images.,high
+CASE001404,2025-08-23T19:00:00,Sales,EU,data_request,Need response template for complaint.,high
+CASE001405,2025-08-01T08:00:00,IT,KSA,complaint_response,Customer data request processing guidance.,medium
+CASE001406,2025-11-20T00:00:00,SupplyChain,EU,data_request,Customer data request processing guidance.,low
+CASE001407,2025-05-22T05:00:00,IT,EU,ingredient_change,Customer data request processing guidance.,medium
+CASE001408,2025-10-21T07:00:00,SupplyChain,EU,ingredient_change,Need response template for complaint.,high
+CASE001409,2025-01-03T21:00:00,HR,EG,data_request,Need response template for complaint.,high
+CASE001410,2025-11-27T20:00:00,Marketing,UAE,label_change,Customer data request processing guidance.,low
+CASE001411,2025-05-24T05:00:00,HR,EU,ingredient_change,Customer data request processing guidance.,high
+CASE001412,2025-05-18T01:00:00,HR,UAE,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001413,2025-07-20T08:00:00,HR,EG,ad_copy,Need response template for complaint.,low
+CASE001414,2025-07-05T11:00:00,HR,EG,data_request,Customer data request processing guidance.,high
+CASE001415,2025-11-28T13:00:00,HR,EU,ingredient_change,Ad copy includes before/after images.,high
+CASE001416,2025-01-24T09:00:00,Marketing,EG,data_request,Customer data request processing guidance.,high
+CASE001417,2025-10-06T19:00:00,IT,EU,ad_copy,Need response template for complaint.,high
+CASE001418,2025-09-26T14:00:00,SupplyChain,EU,ingredient_change,Customer data request processing guidance.,low
+CASE001419,2025-08-19T18:00:00,HR,EU,label_change,Ingredient substitution due to supplier shortage.,low
+CASE001420,2025-10-29T20:00:00,IT,EG,label_change,Need approval for a new claim on packaging.,high
+CASE001421,2025-07-11T17:00:00,Marketing,EU,label_change,Need response template for complaint.,high
+CASE001422,2025-10-17T17:00:00,HR,EG,ingredient_change,Need response template for complaint.,medium
+CASE001423,2025-08-31T07:00:00,IT,KSA,data_request,Need approval for a new claim on packaging.,low
+CASE001424,2025-10-13T08:00:00,IT,KSA,ad_copy,Customer data request processing guidance.,high
+CASE001425,2025-10-22T06:00:00,Sales,EU,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001426,2025-12-26T07:00:00,Sales,UAE,label_change,Customer data request processing guidance.,medium
+CASE001427,2025-06-05T08:00:00,SupplyChain,EU,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001428,2025-06-14T09:00:00,SupplyChain,UAE,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001429,2025-09-29T01:00:00,Marketing,KSA,data_request,Ad copy includes before/after images.,low
+CASE001430,2025-08-08T20:00:00,HR,KSA,data_request,Ad copy includes before/after images.,medium
+CASE001431,2025-05-27T06:00:00,Marketing,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE001432,2025-10-18T15:00:00,HR,EU,ad_copy,Ad copy includes before/after images.,low
+CASE001433,2025-09-21T08:00:00,Marketing,EU,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001434,2025-07-24T14:00:00,IT,EU,ingredient_change,Customer data request processing guidance.,low
+CASE001435,2025-02-24T14:00:00,Sales,UAE,complaint_response,Customer data request processing guidance.,medium
+CASE001436,2025-12-17T14:00:00,IT,KSA,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE001437,2025-06-11T17:00:00,Marketing,KSA,data_request,Customer data request processing guidance.,medium
+CASE001438,2025-11-04T16:00:00,IT,EU,complaint_response,Customer data request processing guidance.,high
+CASE001439,2025-11-27T03:00:00,IT,UAE,data_request,Need approval for a new claim on packaging.,medium
+CASE001440,2025-09-29T09:00:00,IT,EG,ad_copy,Need response template for complaint.,low
+CASE001441,2025-08-22T18:00:00,Sales,EG,label_change,Need response template for complaint.,medium
+CASE001442,2025-05-18T17:00:00,SupplyChain,EG,label_change,Ingredient substitution due to supplier shortage.,high
+CASE001443,2025-07-13T16:00:00,SupplyChain,EU,complaint_response,Need response template for complaint.,medium
+CASE001444,2025-12-13T16:00:00,SupplyChain,KSA,label_change,Need response template for complaint.,low
+CASE001445,2025-03-08T07:00:00,Sales,EG,ingredient_change,Need response template for complaint.,medium
+CASE001446,2025-03-30T07:00:00,HR,EG,ingredient_change,Customer data request processing guidance.,low
+CASE001447,2025-09-12T11:00:00,HR,KSA,ad_copy,Need response template for complaint.,high
+CASE001448,2025-05-20T22:00:00,Marketing,EU,label_change,Customer data request processing guidance.,low
+CASE001449,2025-12-10T10:00:00,HR,UAE,ad_copy,Customer data request processing guidance.,low
+CASE001450,2025-02-12T07:00:00,IT,UAE,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE001451,2025-05-14T08:00:00,HR,KSA,ad_copy,Ingredient substitution due to supplier shortage.,high
+CASE001452,2025-08-19T19:00:00,SupplyChain,UAE,ingredient_change,Need approval for a new claim on packaging.,medium
+CASE001453,2025-07-15T09:00:00,SupplyChain,EG,complaint_response,Ad copy includes before/after images.,medium
+CASE001454,2025-07-14T17:00:00,Sales,KSA,ad_copy,Customer data request processing guidance.,medium
+CASE001455,2025-07-10T21:00:00,SupplyChain,EG,ingredient_change,Need response template for complaint.,low
+CASE001456,2025-12-31T01:00:00,Sales,KSA,ad_copy,Need response template for complaint.,low
+CASE001457,2025-01-31T15:00:00,SupplyChain,EG,data_request,Ad copy includes before/after images.,medium
+CASE001458,2025-01-13T02:00:00,SupplyChain,KSA,ingredient_change,Ingredient substitution due to supplier shortage.,medium
+CASE001459,2025-12-24T13:00:00,IT,EG,label_change,Customer data request processing guidance.,medium
+CASE001460,2025-10-09T05:00:00,SupplyChain,EG,label_change,Ad copy includes before/after images.,medium
+CASE001461,2025-11-14T09:00:00,SupplyChain,UAE,data_request,Ad copy includes before/after images.,medium
+CASE001462,2025-09-22T17:00:00,Marketing,EG,complaint_response,Ad copy includes before/after images.,medium
+CASE001463,2025-07-31T18:00:00,Sales,KSA,ingredient_change,Customer data request processing guidance.,low
+CASE001464,2025-02-09T21:00:00,SupplyChain,KSA,complaint_response,Customer data request processing guidance.,high
+CASE001465,2025-05-28T21:00:00,Sales,EG,ingredient_change,Customer data request processing guidance.,medium
+CASE001466,2025-06-01T01:00:00,Sales,EU,complaint_response,Customer data request processing guidance.,medium
+CASE001467,2025-10-10T19:00:00,SupplyChain,KSA,ingredient_change,Need approval for a new claim on packaging.,high
+CASE001468,2025-09-01T11:00:00,SupplyChain,UAE,label_change,Ad copy includes before/after images.,low
+CASE001469,2025-03-17T09:00:00,HR,UAE,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001470,2025-03-23T22:00:00,IT,UAE,complaint_response,Ingredient substitution due to supplier shortage.,medium
+CASE001471,2025-01-28T06:00:00,SupplyChain,EG,ad_copy,Ad copy includes before/after images.,high
+CASE001472,2025-10-09T23:00:00,Marketing,EU,ad_copy,Customer data request processing guidance.,low
+CASE001473,2025-07-06T10:00:00,SupplyChain,EG,complaint_response,Customer data request processing guidance.,high
+CASE001474,2025-10-29T11:00:00,IT,KSA,complaint_response,Customer data request processing guidance.,medium
+CASE001475,2025-09-01T23:00:00,Marketing,EU,ad_copy,Need approval for a new claim on packaging.,low
+CASE001476,2025-02-11T21:00:00,Sales,KSA,complaint_response,Customer data request processing guidance.,medium
+CASE001477,2025-01-26T20:00:00,Marketing,UAE,label_change,Ad copy includes before/after images.,medium
+CASE001478,2025-02-22T09:00:00,Sales,UAE,label_change,Need response template for complaint.,low
+CASE001479,2025-01-12T06:00:00,Marketing,EU,ad_copy,Ad copy includes before/after images.,high
+CASE001480,2025-04-04T01:00:00,Sales,UAE,ingredient_change,Ingredient substitution due to supplier shortage.,low
+CASE001481,2025-11-29T12:00:00,Sales,KSA,ingredient_change,Ad copy includes before/after images.,high
+CASE001482,2025-04-08T15:00:00,Sales,KSA,data_request,Customer data request processing guidance.,low
+CASE001483,2025-02-13T08:00:00,Sales,UAE,ingredient_change,Ad copy includes before/after images.,low
+CASE001484,2025-08-03T01:00:00,SupplyChain,KSA,ingredient_change,Ad copy includes before/after images.,low
+CASE001485,2025-01-13T13:00:00,HR,UAE,ingredient_change,Need approval for a new claim on packaging.,low
+CASE001486,2025-09-16T22:00:00,HR,KSA,complaint_response,Need response template for complaint.,low
+CASE001487,2025-06-02T08:00:00,HR,EU,label_change,Ad copy includes before/after images.,low
+CASE001488,2025-07-28T17:00:00,HR,UAE,ad_copy,Ingredient substitution due to supplier shortage.,low
+CASE001489,2025-08-03T12:00:00,Marketing,EG,label_change,Ad copy includes before/after images.,high
+CASE001490,2025-03-07T11:00:00,SupplyChain,EU,complaint_response,Need response template for complaint.,high
+CASE001491,2025-05-31T13:00:00,IT,EG,data_request,Need response template for complaint.,low
+CASE001492,2025-08-01T22:00:00,Sales,EU,data_request,Need response template for complaint.,high
+CASE001493,2025-09-27T15:00:00,IT,KSA,ingredient_change,Need response template for complaint.,low
+CASE001494,2025-02-25T06:00:00,HR,EG,label_change,Need response template for complaint.,low
+CASE001495,2025-07-14T11:00:00,SupplyChain,UAE,data_request,Need approval for a new claim on packaging.,high
+CASE001496,2025-03-18T13:00:00,SupplyChain,EU,data_request,Need response template for complaint.,medium
+CASE001497,2025-10-28T08:00:00,Sales,EU,ad_copy,Need approval for a new claim on packaging.,medium
+CASE001498,2025-01-27T06:00:00,SupplyChain,EU,ad_copy,Ad copy includes before/after images.,medium
+CASE001499,2025-11-20T14:00:00,Sales,EG,ad_copy,Ad copy includes before/after images.,high
+CASE001500,2025-06-04T18:00:00,IT,EU,ingredient_change,Need approval for a new claim on packaging.,medium

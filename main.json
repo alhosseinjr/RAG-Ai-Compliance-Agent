@@ -1,0 +1,674 @@
+{
+  "name": "Main",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        688,
+        144
+      ],
+      "id": "7c18e924-570a-4558-b17e-f5f48e181288",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "content": "## VD",
+        "height": 784,
+        "width": 1152,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        544,
+        96
+      ],
+      "id": "2faa5008-0dfb-45ad-a6ef-69cf60bbb2b2",
+      "name": "Sticky Note3"
+    },
+    {
+      "parameters": {
+        "public": true,
+        "initialMessages": "Hi there! 👋\nHow can I assist you today?",
+        "options": {
+          "allowFileUploads": true
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        2256,
+        128
+      ],
+      "id": "3b74fc82-dc15-4230-8358-162b2a6faad4",
+      "name": "When chat message received",
+      "webhookId": "acee7945-f2c1-4645-9ba7-5239097bca2d"
+    },
+    {
+      "parameters": {
+        "content": "## RAG Compliance Agent\n\nThis agent searches TWO databases:\n1. Company Policies (internal rules)\n2. Regulations (jurisdiction-specific)\n\nThe agent MUST use both tools before answering!",
+        "height": 864,
+        "width": 1360,
+        "color": 4
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1792,
+        64
+      ],
+      "id": "7b45d069-a718-42cc-af5b-f558267ecbb2",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-oss-120b",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGroq",
+      "typeVersion": 1,
+      "position": [
+        2480,
+        352
+      ],
+      "id": "a293e5d3-a88b-48e0-ba63-c9968bfe98e8",
+      "name": "Groq Chat Model",
+      "credentials": {
+        "groqApi": {
+          "id": "RfTpdnno6W0CqMcO",
+          "name": "Groq account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "description": "REQUIRED TOOL - You MUST use this for every compliance case. Search regulatory requirements by jurisdiction (UAE/KSA/EU/EG). Use keywords: jurisdiction name + labeling, batch number, expiry date, ingredients, restricted, concentration, claims, substantiated, personal data, consent, privacy. Returns the actual regulation text.",
+        "topK": 5
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolVectorStore",
+      "typeVersion": 1.1,
+      "position": [
+        2656,
+        384
+      ],
+      "id": "a43226a0-2ad8-4b94-acf1-7c4f0cc7cb1a",
+      "name": "Search Regulations"
+    },
+    {
+      "parameters": {
+        "pineconeIndex": {
+          "__rl": true,
+          "value": "rules-eva",
+          "mode": "list",
+          "cachedResultName": "rules-eva"
+        },
+        "options": {
+          "pineconeNamespace": "regulations.json"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
+      "typeVersion": 1.3,
+      "position": [
+        2576,
+        560
+      ],
+      "id": "74d20b2d-c7e4-4f89-b52b-db30b18a20e0",
+      "name": "Pinecone Regulations Store",
+      "credentials": {
+        "pineconeApi": {
+          "id": "q7JCW8ZWC937EO2W",
+          "name": "PineconeApi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $('When chat message received').item.json.chatInput }}",
+        "options": {
+          "systemMessage": "=You are a Compliance Assessment Engine.\n\n🚨 CRITICAL RULE: You CANNOT answer ANY question without FIRST using the retrieval tools.\n🚨 If you try to answer without using tools, your response will be INVALID and REJECTED.\n\n════════════════════════════════════\nMANDATORY PROCESS - NO EXCEPTIONS\n════════════════════════════════════\n\nFor EVERY SINGLE case you receive, you MUST follow these steps IN ORDER:\n\nSTEP 1: 🔍 Use \"search_company_policies\" tool\n        - Search with keywords from case_type\n        - Wait for results\n\nSTEP 2: 🔍 Use \"search_regulations\" tool\n        - Search with jurisdiction + case_type keywords\n        - Wait for results\n\nSTEP 3: 📖 Read the retrieved documents\n\nSTEP 4: ✍️ Write your answer based ONLY on retrieved content\n\n🚫 VIOLATION: Answering without using BOTH tools = INVALID RESPONSE\n🚫 VIOLATION: Using training knowledge instead of tools = INVALID RESPONSE\n🚫 VIOLATION: Assuming rules without checking tools = INVALID RESPONSE\n\n════════════════════════════════════\nAVAILABLE TOOLS (YOU MUST USE THESE)\n════════════════════════════════════\n\nTool 1: search_company_policies\n- Purpose: Search internal company policies\n- When: For EVERY case, search with case_type keywords\n- Keywords by case_type:\n  * complaint_response → \"escalation quality incidents 24 hours\"\n  * ad_copy → \"marketing legal review publishing\"\n  * label_change → \"labeling approval products\"\n  * ingredient_change → \"ingredients quality restricted\"\n  * data_request → \"data access role-based logged privacy\"\n\nTool 2: search_regulations\n- Purpose: Search jurisdiction-specific regulations\n- When: For EVERY case, search with jurisdiction + case_type\n- Keywords by case_type:\n  * complaint_response → \"[jurisdiction] complaint response\"\n  * ad_copy → \"[jurisdiction] advertising claims substantiated\"\n  * label_change → \"[jurisdiction] labeling batch number expiry date products\"\n  * ingredient_change → \"[jurisdiction] ingredients restricted concentration\"\n  * data_request → \"[jurisdiction] personal data privacy consent\"\n\nReplace [jurisdiction] with: UAE, KSA, EU, or EG from the case\n\n════════════════════════════════════\nDECISION LOGIC (ONLY AFTER RETRIEVAL)\n════════════════════════════════════\n\nAfter using BOTH tools and reading the results:\n\nIF case_type = \"complaint_response\":\n  ├─ Check retrieved policies for \"escalated within 24 hours\" OR \"Quality incidents\"\n  ├─ IF found AND risk_level = \"high\":\n  │   └─ Return: \"Non-Compliant - Must escalate within 24 hours per policy\"\n  ├─ ELSE IF found AND risk_level = \"medium\" or \"low\":\n  │   └─ Return: \"Compliant - Follow standard complaint response procedure\"\n  └─ ELSE IF not found:\n      └─ Return: \"Compliant - Follow standard complaint response procedure\"\n\nIF case_type = \"label_change\":\n  ├─ Check retrieved regulations for \"batch number\" OR \"expiry date\" OR \"Products must include\"\n  ├─ IF found:\n  │   └─ Return: \"Requires Review - Must include batch number and expiry date per regulations\"\n  └─ ELSE IF not found:\n      └─ Return: \"Compliant - Standard label approval process\"\n\nIF case_type = \"ingredient_change\":\n  ├─ Check retrieved regulations for \"restricted ingredients\" OR \"concentration\" OR \"Restricted ingredients must not exceed\"\n  ├─ IF found:\n  │   └─ Return: \"Requires Review - Verify ingredient restrictions and concentration limits\"\n  └─ ELSE IF not found:\n      └─ Return: \"Compliant - Standard quality review required\"\n\nIF case_type = \"ad_copy\":\n  ├─ Check retrieved policies for \"marketing copies must pass legal review\"\n  ├─ Check retrieved regulations for \"Claims must be substantiated\"\n  ├─ IF both found:\n  │   └─ Return: \"Requires Review - Must pass legal review and substantiate claims per regulations\"\n  ├─ ELSE IF only policy found:\n  │   └─ Return: \"Requires Review - Must pass legal review before publishing\"\n  └─ ELSE IF neither found:\n      └─ Return: \"Compliant - Standard marketing approval process\"\n\nIF case_type = \"data_request\":\n  ├─ Check retrieved regulations for \"Personal data must be processed with consent\"\n  ├─ Check retrieved policies for \"Data access must be role-based\"\n  ├─ IF both found:\n  │   └─ Return: \"Requires Review - Must obtain consent and ensure role-based access\"\n  ├─ ELSE IF only regulation found:\n  │   └─ Return: \"Requires Review - Must process with consent and retention limits\"\n  ├─ ELSE IF only policy found:\n  │   └─ Return: \"Requires Review - Must be role-based and logged\"\n  └─ ELSE IF neither found:\n      └─ Return: \"Compliant - Standard data request process\"\n\n⚠️ SPECIAL CASE: If retrieved results only show jurisdiction names (UAE, KSA, EU, EG) without actual rule text:\n   └─ Return: \"Requires Review - No applicable rules found in database\"\n\n════════════════════════════════════\nOUTPUT FORMAT\n════════════════════════════════════\n\nYou MUST return EXACTLY ONE LINE in this format:\n\n[Status] - [Requirement]\n\nWhere\nStatus is ONE of: Compliant | Non-Compliant | Requires Review\n\nValid Examples:\n✓ \"Compliant - Follow standard complaint response procedure\"\n✓ \"Non-Compliant - Must escalate within 24 hours per policy\"\n✓ \"Requires Review - Must pass legal review before publishing\"\n✓ \"Requires Review - Must include batch number and expiry date per regulations\"\n✓ \"Requires Review - Verify ingredient restrictions and concentration limits\"\n✓ \"Requires Review - Must obtain consent and ensure role-based access\"\n✓ \"Requires Review - No applicable rules found in database\"\n\nInvalid Examples:\n✗ Any response without using tools first\n✗ Any multi-line response\n✗ Any explanation or additional text\n✗ Any response based on general knowledge\n\n════════════════════════════════════\nEXAMPLE WORKFLOW\n════════════════════════════════════\n\nUser Input:\n\"case_id: CASE001\ncase_type: complaint_response\njurisdiction: UAE\nrisk_level: high\ndescription: Customer complaint about product quality\"\n\nYour Actions:\n1. Call search_company_policies with query: \"escalation quality incidents 24 hours\"\n2. Call search_regulations with query: \"UAE complaint response\"\n3. Read both results\n4. Check if policy contains \"escalated within 24 hours\"\n5. Check risk_level = \"high\"\n6. Return: \"Non-Compliant - Must escalate within 24 hours per policy\"\n\n🚨 REMEMBER: NO TOOL USAGE = INVALID RESPONSE 🚨\n\n",
+          "returnIntermediateSteps": true
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2.2,
+      "position": [
+        2480,
+        128
+      ],
+      "id": "1d5a7449-36ed-4d03-8881-f3e4c0747bf7",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "description": "REQUIRED TOOL - You MUST use this for every compliance case. Search company internal policies. Use keywords: escalation, quality incidents, 24 hours, marketing, legal review, publishing, data access, role-based, logged, privacy. Returns the actual policy text.",
+        "topK": 5
+      },
+      "type": "@n8n/n8n-nodes-langchain.toolVectorStore",
+      "typeVersion": 1.1,
+      "position": [
+        2128,
+        384
+      ],
+      "id": "95259f7f-e4d4-4d74-a98b-c3e91e3ae3db",
+      "name": "Search Company Policies"
+    },
+    {
+      "parameters": {
+        "pineconeIndex": {
+          "__rl": true,
+          "value": "rules-eva",
+          "mode": "list",
+          "cachedResultName": "rules-eva"
+        },
+        "options": {
+          "pineconeNamespace": "company_policies.json"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
+      "typeVersion": 1.3,
+      "position": [
+        1952,
+        528
+      ],
+      "id": "63e7ff32-59fb-4a7b-aa52-764e9d23a2c4",
+      "name": "Pinecone Policies Store",
+      "credentials": {
+        "pineconeApi": {
+          "id": "q7JCW8ZWC937EO2W",
+          "name": "PineconeApi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "bge-m3:latest"
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
+      "typeVersion": 1,
+      "position": [
+        1952,
+        704
+      ],
+      "id": "9e681822-bcad-4b5d-9162-0fc0786bcc6f",
+      "name": "Embeddings Ollama (Policies)",
+      "credentials": {
+        "ollamaApi": {
+          "id": "CjpmeqA9wD51WD7b",
+          "name": "Ollama account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "qwen3:4b",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        2256,
+        624
+      ],
+      "id": "9963e095-9f0b-4c63-912b-5225ab78da16",
+      "name": "Ollama Chat Model (Policies)",
+      "credentials": {
+        "ollamaApi": {
+          "id": "CjpmeqA9wD51WD7b",
+          "name": "Ollama account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "bge-m3:latest"
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
+      "typeVersion": 1,
+      "position": [
+        2576,
+        736
+      ],
+      "id": "6ba56b81-d0de-4809-aad6-23eeb959223e",
+      "name": "Embeddings Ollama (Regulations)",
+      "credentials": {
+        "ollamaApi": {
+          "id": "CjpmeqA9wD51WD7b",
+          "name": "Ollama account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "qwen3:4b",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        2960,
+        592
+      ],
+      "id": "46e7c97f-d7bc-42f4-b2fe-de2bf88012a3",
+      "name": "Ollama Chat Model (Regulations)",
+      "credentials": {
+        "ollamaApi": {
+          "id": "CjpmeqA9wD51WD7b",
+          "name": "Ollama account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.textSplitterRecursiveCharacterTextSplitter",
+      "typeVersion": 1,
+      "position": [
+        1216,
+        720
+      ],
+      "id": "38943da2-fc7c-47d5-a3a8-1751b638d48d",
+      "name": "Recursive Character Text Splitter"
+    },
+    {
+      "parameters": {
+        "dataType": "binary",
+        "textSplittingMode": "custom",
+        "options": {
+          "metadata": {
+            "metadataValues": [
+              {
+                "name": "Rules",
+                "value": "={{ $json.File_Name}}"
+              }
+            ]
+          }
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "typeVersion": 1.1,
+      "position": [
+        1408,
+        608
+      ],
+      "id": "a4570709-ea98-40c8-95cf-e70b8f5c60a1",
+      "name": "Default Data Loader"
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "filter": {
+          "folderId": {
+            "__rl": true,
+            "value": "1L8M1zSL5dIOJUhy3cpoQA4C4jNb12ZTV",
+            "mode": "list",
+            "cachedResultName": "EVA",
+            "cachedResultUrl": "https://drive.google.com/drive/folders/1L8M1zSL5dIOJUhy3cpoQA4C4jNb12ZTV"
+          }
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        944,
+        144
+      ],
+      "id": "fb1aa40a-b216-403d-90e2-7bb5fc93a158",
+      "name": "Search files and folders",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "paGi5AsvsdYVQrqC",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "0763ca5b-ba01-4a06-a90e-4dc975205313",
+              "name": "File_Name",
+              "value": "={{ $json.name }}",
+              "type": "string"
+            },
+            {
+              "id": "c764c982-6ad5-4212-a3df-2658111d99f5",
+              "name": "File_ID",
+              "value": "={{ $json.id }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1280,
+        144
+      ],
+      "id": "e42eb799-6259-4050-bfd2-ff36921f7480",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        944,
+        384
+      ],
+      "id": "d97bcd2d-0973-4849-a51a-3936d9572a7c",
+      "name": "Loop Over Items"
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "={{ $json.File_ID }}",
+          "mode": "id"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        672,
+        384
+      ],
+      "id": "bd37123b-fdda-4443-bfca-d65b6ac8eaba",
+      "name": "Download file",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "paGi5AsvsdYVQrqC",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "pineconeIndex": {
+          "__rl": true,
+          "value": "rules-eva",
+          "mode": "list",
+          "cachedResultName": "rules-eva"
+        },
+        "embeddingBatchSize": 2,
+        "options": {
+          "pineconeNamespace": "={{ $json.File_Name }}"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
+      "typeVersion": 1.3,
+      "position": [
+        1312,
+        400
+      ],
+      "id": "b052b833-7481-404b-8a37-ee6faff37704",
+      "name": "Pinecone Vector Store",
+      "credentials": {
+        "pineconeApi": {
+          "id": "q7JCW8ZWC937EO2W",
+          "name": "PineconeApi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "bge-m3:latest"
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOllama",
+      "typeVersion": 1,
+      "position": [
+        736,
+        656
+      ],
+      "id": "c8b1f026-64a0-43ad-8a32-3f2dd748f549",
+      "name": "Embeddings Ollama",
+      "credentials": {
+        "ollamaApi": {
+          "id": "CjpmeqA9wD51WD7b",
+          "name": "Ollama account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Search files and folders",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Groq Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search Regulations": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pinecone Regulations Store": {
+      "ai_vectorStore": [
+        [
+          {
+            "node": "Search Regulations",
+            "type": "ai_vectorStore",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        []
+      ]
+    },
+    "Search Company Policies": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pinecone Policies Store": {
+      "ai_vectorStore": [
+        [
+          {
+            "node": "Search Company Policies",
+            "type": "ai_vectorStore",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Ollama (Policies)": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Pinecone Policies Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model (Policies)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Search Company Policies",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Ollama (Regulations)": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Pinecone Regulations Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model (Regulations)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Search Regulations",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Recursive Character Text Splitter": {
+      "ai_textSplitter": [
+        [
+          {
+            "node": "Default Data Loader",
+            "type": "ai_textSplitter",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Default Data Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Pinecone Vector Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search files and folders": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Download file",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Pinecone Vector Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download file": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pinecone Vector Store": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Ollama": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Pinecone Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "c050a64e-eccd-45aa-9605-94b26b91a5a6",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "8ff86cca8a09c8108a891424d6bdf8b06195e8745d13e9708d41f09289806c31"
+  },
+  "id": "7RMqz7bkHRPHGPD3",
+  "tags": []
+}

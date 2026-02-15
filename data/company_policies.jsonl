@@ -1,0 +1,50 @@
+{"policy_id": "P001", "title": "Company Policy 1 - Vendor", "owner": "Quality", "version": "2.1", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P002", "title": "Company Policy 2 - Privacy", "owner": "IT", "version": "3.6", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P003", "title": "Company Policy 3 - Privacy", "owner": "Compliance", "version": "1.2", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P004", "title": "Company Policy 4 - Escalations", "owner": "Legal", "version": "4.9", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P005", "title": "Company Policy 5 - Quality", "owner": "IT", "version": "2.9", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P006", "title": "Company Policy 6 - Vendor", "owner": "HR", "version": "1.2", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P007", "title": "Company Policy 7 - Privacy", "owner": "Legal", "version": "4.7", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P008", "title": "Company Policy 8 - Approvals", "owner": "Quality", "version": "3.0", "text": "Data access must be role-based and logged."}
+{"policy_id": "P009", "title": "Company Policy 9 - Vendor", "owner": "HR", "version": "1.6", "text": "Data access must be role-based and logged."}
+{"policy_id": "P010", "title": "Company Policy 10 - Privacy", "owner": "Quality", "version": "4.2", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P011", "title": "Company Policy 11 - Approvals", "owner": "Compliance", "version": "4.7", "text": "Data access must be role-based and logged."}
+{"policy_id": "P012", "title": "Company Policy 12 - Approvals", "owner": "IT", "version": "3.3", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P013", "title": "Company Policy 13 - Vendor", "owner": "Legal", "version": "2.8", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P014", "title": "Company Policy 14 - Privacy", "owner": "Compliance", "version": "1.7", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P015", "title": "Company Policy 15 - Quality", "owner": "IT", "version": "1.7", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P016", "title": "Company Policy 16 - Vendor", "owner": "Legal", "version": "4.0", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P017", "title": "Company Policy 17 - Privacy", "owner": "IT", "version": "1.8", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P018", "title": "Company Policy 18 - Approvals", "owner": "HR", "version": "3.8", "text": "Data access must be role-based and logged."}
+{"policy_id": "P019", "title": "Company Policy 19 - Privacy", "owner": "Quality", "version": "3.0", "text": "Data access must be role-based and logged."}
+{"policy_id": "P020", "title": "Company Policy 20 - Privacy", "owner": "Quality", "version": "4.5", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P021", "title": "Company Policy 21 - Approvals", "owner": "Legal", "version": "2.0", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P022", "title": "Company Policy 22 - Vendor", "owner": "Quality", "version": "3.1", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P023", "title": "Company Policy 23 - Escalations", "owner": "IT", "version": "2.6", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P024", "title": "Company Policy 24 - Vendor", "owner": "HR", "version": "2.3", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P025", "title": "Company Policy 25 - Privacy", "owner": "Compliance", "version": "4.3", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P026", "title": "Company Policy 26 - Approvals", "owner": "IT", "version": "1.9", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P027", "title": "Company Policy 27 - Privacy", "owner": "IT", "version": "2.7", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P028", "title": "Company Policy 28 - Quality", "owner": "Legal", "version": "4.9", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P029", "title": "Company Policy 29 - Quality", "owner": "Compliance", "version": "2.2", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P030", "title": "Company Policy 30 - Privacy", "owner": "HR", "version": "3.8", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P031", "title": "Company Policy 31 - Privacy", "owner": "HR", "version": "2.4", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P032", "title": "Company Policy 32 - Vendor", "owner": "Quality", "version": "4.2", "text": "Data access must be role-based and logged."}
+{"policy_id": "P033", "title": "Company Policy 33 - Privacy", "owner": "HR", "version": "3.8", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P034", "title": "Company Policy 34 - Quality", "owner": "Compliance", "version": "2.3", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P035", "title": "Company Policy 35 - Vendor", "owner": "Compliance", "version": "2.8", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P036", "title": "Company Policy 36 - Approvals", "owner": "Quality", "version": "4.9", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P037", "title": "Company Policy 37 - Quality", "owner": "Quality", "version": "4.0", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P038", "title": "Company Policy 38 - Approvals", "owner": "IT", "version": "2.0", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P039", "title": "Company Policy 39 - Escalations", "owner": "Quality", "version": "2.4", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P040", "title": "Company Policy 40 - Escalations", "owner": "Legal", "version": "3.3", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P041", "title": "Company Policy 41 - Vendor", "owner": "IT", "version": "1.9", "text": "Data access must be role-based and logged."}
+{"policy_id": "P042", "title": "Company Policy 42 - Quality", "owner": "IT", "version": "2.8", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P043", "title": "Company Policy 43 - Approvals", "owner": "IT", "version": "4.6", "text": "Quality incidents must be escalated within 24 hours."}
+{"policy_id": "P044", "title": "Company Policy 44 - Quality", "owner": "Legal", "version": "1.4", "text": "Data access must be role-based and logged."}
+{"policy_id": "P045", "title": "Company Policy 45 - Quality", "owner": "IT", "version": "2.5", "text": "Data access must be role-based and logged."}
+{"policy_id": "P046", "title": "Company Policy 46 - Escalations", "owner": "Quality", "version": "4.2", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P047", "title": "Company Policy 47 - Escalations", "owner": "Compliance", "version": "1.6", "text": "All marketing copies must pass legal review before publishing."}
+{"policy_id": "P048", "title": "Company Policy 48 - Privacy", "owner": "Quality", "version": "3.2", "text": "Data access must be role-based and logged."}
+{"policy_id": "P049", "title": "Company Policy 49 - Quality", "owner": "Quality", "version": "1.5", "text": "Vendor contracts require compliance clauses and audit rights."}
+{"policy_id": "P050", "title": "Company Policy 50 - Escalations", "owner": "Legal", "version": "2.5", "text": "All marketing copies must pass legal review before publishing."}
