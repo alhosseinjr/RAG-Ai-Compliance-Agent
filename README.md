@@ -1,7 +1,7 @@
-================================================================================
+=============================================
 REGULATORY & COMPLIANCE AUTOMATION SYSTEM - README
 Challenge CH-04: Automated Compliance Analysis Using RAG
-================================================================================
+=============================================
 
 
 PROJECT OVERVIEW:
@@ -12,17 +12,17 @@ The n8n workflow automates compliance assessment for business cases across multi
 
 EXPECTED RUN TIME: 10-30 seconds per case (depending on complexity and API response times)
 
-========================================================================================================
+=============================================
 PREREQUISITES
-========================================================================================================
+=============================================
 1. Computer with at least 8GB RAM (16GB recommended for Ollama)
 2. Stable internet connection
 3. Basic command line knowledge
 4. Windows 10/11, macOS 10.15+, or Linux (Ubuntu 20.04+)
 
-========================================================================================================
+=============================================
 PART 1: INSTALL N8N (Workflow Automation Platform)
-========================================================================================================
+=============================================
 
 METHOD A - Using NPM (Recommended for most users):
 1. Install Node.js 18.x or 20.x from https://nodejs.org/
@@ -47,10 +47,9 @@ METHOD C - Desktop App (Easiest for beginners):
 2. Install and launch the application
 3. The interface will open automatically
 
-========================================================================================================
+=============================================
 PART 2: INSTALL OLLAMA (Local AI Models)
-========================================================================================================
-
+=============================================
 STEP 1 - Install Ollama:
 Windows:
 1. Download from https://ollama.ai/download/windows
@@ -86,9 +85,9 @@ STEP 5 - Configure Ollama for n8n:
 By default, Ollama runs on http://localhost:11434
 Keep Ollama running in the background (it starts automatically after installation)
 
-========================================================================================================
+=============================================
 PART 3: SETUP PINECONE (Vector Database)
-========================================================================================================
+=============================================
 
 STEP 1 - Create Pinecone Account:
 1. Go to https://www.pinecone.io/
@@ -115,9 +114,9 @@ STEP 3 - Create Index:
 
 IMPORTANT: The index name MUST be "rules-eva" to match the workflow configuration.
 
-========================================================================================================
+=============================================
 PART 4: SETUP GROQ (AI Chat Model)
-========================================================================================================
+=============================================
 
 STEP 1 - Create Groq Account:
 1. Go to https://console.groq.com/
@@ -133,9 +132,9 @@ STEP 2 - Get API Key:
 
 Note: Groq offers free tier with good rate limits for testing.
 
-========================================================================================================
+=============================================
 PART 5: IMPORT WORKFLOW INTO N8N
-========================================================================================================
+=============================================
 
 STEP 1 - Open n8n:
 Navigate to http://localhost:5678 in your browser
@@ -178,9 +177,9 @@ C) Ollama Credentials:
 5. Click "Save"
 6. Apply this credential to all Ollama nodes in the workflow
 
-========================================================================================================
+=============================================
 PART 6: PREPARE DATA FILES
-========================================================================================================
+=============================================
 
 STEP 1 - Create Data Folder:
 Create a folder structure on your computer:
@@ -198,9 +197,9 @@ STEP 2 - Use Local Files (alternative):
 1. In n8n workflow, replace "Search files and folders" node with "Read Binary Files" node
 2. Point to your local file paths
 
-========================================================================================================
+=============================================
 PART 7: INDEX YOUR DATA (First-time Setup)
-========================================================================================================
+=============================================
 
 STEP 1 - Activate VD Workflow:
 1. In n8n, locate the "VD" section (left side of workflow)
@@ -221,9 +220,9 @@ STEP 4 - Verify Indexing:
 3. Check "Vector Count" - should show ~150 vectors
 4. Check namespaces: "company_policies.json" and "regulations.json" should exist
 
-========================================================================================================
+=============================================
 PART 8: RUN THE COMPLIANCE AGENT
-========================================================================================================
+=============================================
 
 STEP 1 - Activate Chat Interface:
 1. In n8n workflow, click on "When chat message received" node
@@ -263,9 +262,9 @@ Try these case types:
 
 Each with different jurisdictions: UAE, KSA, EU, EG
 
-========================================================================================================
+=============================================
 TROUBLESHOOTING
-========================================================================================================
+=============================================
 
 ISSUE: "Ollama connection failed"
 SOLUTION: 
@@ -296,9 +295,9 @@ SOLUTION:
 - Verify both tools are connected to AI Agent
 - Review execution logs for errors
 
-========================================================================================================
+=============================================
 PERFORMANCE OPTIMIZATION
-========================================================================================================
+=============================================
 
 1. For faster responses:
    - Reduce topK from 5 to 3 in vector search tools
@@ -312,9 +311,9 @@ PERFORMANCE OPTIMIZATION
    - Use "Loop Over Items" node to process multiple cases
    - Import cases.csv and connect to workflow
 
-========================================================================================================
+=============================================
 MAINTENANCE
-========================================================================================================
+=============================================
 
 1. Update regulations monthly:
    - Edit regulations.jsonl file
@@ -331,9 +330,9 @@ MAINTENANCE
    - Keep copies of JSONL files
    - Note: Pinecone data is cloud-backed
 
-========================================================================================================
+=============================================
 SUPPORT AND RESOURCES
-========================================================================================================
+=============================================
 
 n8n Documentation: https://docs.n8n.io/
 Ollama Documentation: https://github.com/ollama/ollama
@@ -342,6 +341,6 @@ Groq Documentation: https://console.groq.com/docs/
 
 For project-specific issues, check execution logs in n8n workflow view.
 
-========================================================================================================
+====================================================
 END OF SETUP GUIDE
-========================================================================================================
+====================================================
